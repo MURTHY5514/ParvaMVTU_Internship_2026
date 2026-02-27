@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "question_text": "What will be the output? const add = function(a,b){ return a+b;} console.log(add(10,20));",
+      "question_type": "mcq",
+      "options": ["10", "20", "30", "undefined"],
+      "correct_answer": "30",
+      "marks": 1
+    },
+    {
+      "question_text": "If a function does not return anything, it returns undefined.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are types of functions in JavaScript?",
+      "question_type": "checkbox",
+      "options": [
+        "Function Declaration",
+        "Function Expression",
+        "Arrow Function",
+        "Loop Function"
+      ],
+      "correct_answers": [
+        "Function Declaration",
+        "Function Expression",
+        "Arrow Function"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be printed? const sub=function(a,b){console.log(a-b);} sub(20,30);",
+      "question_type": "mcq",
+      "options": ["-10", "10", "50", "undefined"],
+      "correct_answer": "-10",
+      "marks": 1
+    },
+    {
+      "question_text": "Arrow functions use the => syntax.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "What will be the output? const mul=function(){return 10*30;} console.log(mul());",
+      "question_type": "mcq",
+      "options": ["300", "30", "10", "undefined"],
+      "correct_answer": "300",
+      "marks": 1
+    },
+    {
+      "question_text": "Which variables are block scoped?",
+      "question_type": "checkbox",
+      "options": ["let", "var", "const", "function"],
+      "correct_answers": ["let", "const"],
+      "marks": 2
+    },
+    {
+      "question_text": "var is function scoped.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "What will be the output? let a=100; if(true){ let a=200;} console.log(a);",
+      "question_type": "mcq",
+      "options": ["100", "200", "undefined", "Error"],
+      "correct_answer": "100",
+      "marks": 1
+    },
+    {
+      "question_text": "What does push() do in an array?",
+      "question_type": "mcq",
+      "options": [
+        "Removes last element",
+        "Adds element at end",
+        "Removes first element",
+        "Adds element at beginning"
+      ],
+      "correct_answer": "Adds element at end",
+      "marks": 1
+    },
+    {
+      "question_text": "pop() removes the last element of an array.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which array methods create a new array?",
+      "question_type": "checkbox",
+      "options": ["map()", "filter()", "reduce()", "forEach()"],
+      "correct_answers": ["map()", "filter()"],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be the output? [2,4,6].map(e=>e*2);",
+      "question_type": "mcq",
+      "options": [
+        "[2,4,6]",
+        "[4,8,12]",
+        "[2,8,18]",
+        "undefined"
+      ],
+      "correct_answer": "[4,8,12]",
+      "marks": 1
+    },
+    {
+      "question_text": "filter() is used to return elements that satisfy a condition.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "What will reduce() return? [1,2,3].reduce((p,c)=>p+c,0);",
+      "question_type": "mcq",
+      "options": ["6", "123", "0", "undefined"],
+      "correct_answer": "6",
+      "marks": 1
+    },
+    {
+      "question_text": "indexOf() returns -1 if element is not found.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following modify the original array?",
+      "question_type": "checkbox",
+      "options": ["push()", "pop()", "shift()", "map()"],
+      "correct_answers": ["push()", "pop()", "shift()"],
+      "marks": 2
+    },
+    {
+      "question_text": "What is NaN?",
+      "question_type": "mcq",
+      "options": [
+        "New Array Number",
+        "Not a Number",
+        "Null and None",
+        "Negative Number"
+      ],
+      "correct_answer": "Not a Number",
+      "marks": 1
+    },
+    {
+      "question_text": "Primitive types are stored by value.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Reference types are stored by reference.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "What will be the output? let x=40; let y=x; x=50; console.log(y);",
+      "question_type": "mcq",
+      "options": ["40", "50", "undefined", "Error"],
+      "correct_answer": "40",
+      "marks": 1
+    },
+    {
+      "question_text": "What will be the output? const arr=[1,2]; const arr2=arr; arr.push(3); console.log(arr2);",
+      "question_type": "mcq",
+      "options": [
+        "[1,2]",
+        "[1,2,3]",
+        "[3]",
+        "Error"
+      ],
+      "correct_answer": "[1,2,3]",
+      "marks": 1
+    },
+    {
+      "question_text": "forEach() returns a new array.",
+      "question_type": "true_false",
+      "correct_answer": "False",
+      "marks": 1
+    },
+    {
+      "question_text": "Which functions can take parameters and return a value?",
+      "question_type": "checkbox",
+      "options": [
+        "Function Declaration",
+        "Function Expression",
+        "Arrow Function",
+        "None of the above"
+      ],
+      "correct_answers": [
+        "Function Declaration",
+        "Function Expression",
+        "Arrow Function"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Removing return from a function that calculates a value will result in undefined.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    }
+  ]
+}

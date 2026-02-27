@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+
+<body>
+    <h1>Functions in JS</h1>
+    <p>1. built-in - Math.floor()</p>
+    <p>2. user-defined</p>
+
+    <p>1. function decleration</p>
+    <pre>
+        function fun_name(parameters){
+            //code
+        }
+        fun_name(args);
+    </pre>
+    <p>2. function Expression</p>
+    <pre>
+        const fun_name  = function(parameters){
+            //code
+        }
+        fun_name(args);
+    </pre>
+    <p>3. Arrow function</p>
+    <pre>
+        const fun_name = (parameters) => {
+            //code
+        }
+        fun_name(args);
+    </pre>
+
+    <pre>
+        1. function taking parameters and returning value(1,1)
+        2. function taking parameters and not returning value(1,0)
+        3. function not taking parameters and returning value(0,1)
+        4. function not taking parameters and not returning value(0,0)
+    </pre>
+
+    <p>NaN - not a number</p>
+
+    <script>
+        //function expression
+        const add = function (a, b) {
+            return a + b;
+        }
+        const res = add(10, 20);
+        console.log("Add: ", res);
+
+        const sub = function (a, b) {
+            console.log("Sub: ", (a - b));
+        }
+        sub(20, 30);
+
+        const mul = function () {
+            return 10 * 30;
+        }
+        const res1 = mul();
+        console.log("Mul: ", res1);
+
+        const div = function () {
+            console.log("Div: ", 10 / 2);
+        }
+        div();
+    </script>
+
+    <script>
+        //arrow function
+        const add1 =  (a, b)=> {
+            return a + b;
+        }
+        const res2 = add1(10, 20);
+        console.log("Add: ", res2);
+    </script>
+
+    <script>
+        //function decleration\
+        
+    </script>
+</body>
+
+</html>
