@@ -1,0 +1,135 @@
+{
+  "questions": [
+    {
+      "question_text": "Java is mainly used to develop which of the following applications?",
+      "question_type": "checkbox",
+      "options": [
+        "Web applications",
+        "Android applications",
+        "Enterprise applications",
+        "Desktop applications"
+      ],
+      "correct_answers": [
+        "Web applications",
+        "Android applications",
+        "Enterprise applications",
+        "Desktop applications"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "What is the file extension of a Java source file?",
+      "question_type": "mcq",
+      "options": [
+        ".class",
+        ".java",
+        ".jar",
+        ".exe"
+      ],
+      "correct_answer": ".java",
+      "marks": 1
+    },
+    {
+      "question_text": "Java follows the principle WORA (Write Once Run Anywhere).",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which component converts bytecode to machine code?",
+      "question_type": "mcq",
+      "options": [
+        "JVM",
+        "JDK",
+        "JRE",
+        "IDE"
+      ],
+      "correct_answer": "JVM",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are primitive data types in Java?",
+      "question_type": "checkbox",
+      "options": [
+        "int",
+        "float",
+        "String",
+        "boolean"
+      ],
+      "correct_answers": [
+        "int",
+        "float",
+        "boolean"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be the output? int a = 10; System.out.println(a);",
+      "question_type": "mcq",
+      "options": [
+        "10",
+        "a",
+        "Error",
+        "null"
+      ],
+      "correct_answer": "10",
+      "marks": 1
+    },
+    {
+      "question_text": "A variable is used to store data in a program.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are non-primitive data types in Java?",
+      "question_type": "checkbox",
+      "options": [
+        "Array",
+        "String",
+        "Class",
+        "int"
+      ],
+      "correct_answers": [
+        "Array",
+        "String",
+        "Class"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be the output? String str = \"Java\"; System.out.println(str);",
+      "question_type": "mcq",
+      "options": [
+        "Java",
+        "str",
+        "Error",
+        "null"
+      ],
+      "correct_answer": "Java",
+      "marks": 1
+    },
+    {
+      "question_text": "The main method is the starting point of a Java program.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which IDEs can be used to write Java programs?",
+      "question_type": "checkbox",
+      "options": [
+        "Eclipse",
+        "IntelliJ IDEA",
+        "Visual Studio Code",
+        "Photoshop"
+      ],
+      "correct_answers": [
+        "Eclipse",
+        "IntelliJ IDEA",
+        "Visual Studio Code"
+      ],
+      "marks": 2
+    }
+  ]
+}

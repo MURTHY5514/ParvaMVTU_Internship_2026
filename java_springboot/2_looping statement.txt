@@ -1,0 +1,7 @@
+Looping in java:
+================
+Feature 		for Loop	while Loop						do-while Loop
+Condition Check	Before each iteration (entry-controlled)	Before each iteration (entry-controlled)	After each iteration (exit-controlled)
+Execution Guarantee	May not run at all if the condition is false initially.	May not run at all if the condition is false initially.	Guaranteed to execute at least once.
+Use Case	When the number of iterations is known in advance.	When the number of iterations is uncertain, based on a condition.	When the loop body must run at least once, regardless of the condition.
+Syntax	for (init; condition; update) { ... }	while (condition) { ... }	do { ... } while (condition);

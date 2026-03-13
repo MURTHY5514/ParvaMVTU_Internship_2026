@@ -1,0 +1,168 @@
+{
+    "questions": [
+        {
+            "question_text": "What will be the output? const arr = ['a','b','c']; const [x,y,z] = arr; console.log(y);",
+            "question_type": "mcq",
+            "options": [
+                "a",
+                "b",
+                "c",
+                "undefined"
+            ],
+            "correct_answer": "b",
+            "marks": 1
+        },
+        {
+            "question_text": "The rest operator (...) in array destructuring collects remaining elements into an array.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "What will be the output? const arr=[1,2,3,4]; const [a,,c] = arr; console.log(c);",
+            "question_type": "mcq",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer": "3",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following are valid ways to access object properties?",
+            "question_type": "checkbox",
+            "options": [
+                "Dot notation",
+                "Bracket notation",
+                "Parenthesis notation",
+                "Colon notation"
+            ],
+            "correct_answers": [
+                "Dot notation",
+                "Bracket notation"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "What will be the output? const obj={name:'Ram',age:25}; console.log(obj.name);",
+            "question_type": "mcq",
+            "options": [
+                "Ram",
+                "25",
+                "undefined",
+                "Error"
+            ],
+            "correct_answer": "Ram",
+            "marks": 1
+        },
+        {
+            "question_text": "In objects, keys with spaces must be accessed using bracket notation.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "What does Object.keys(obj) return?",
+            "question_type": "mcq",
+            "options": [
+                "Array of values",
+                "Array of keys",
+                "Single key",
+                "Boolean value"
+            ],
+            "correct_answer": "Array of keys",
+            "marks": 1
+        },
+        {
+            "question_text": "Which loop is commonly used to iterate over object properties?",
+            "question_type": "checkbox",
+            "options": [
+                "for...in",
+                "for...of",
+                "while",
+                "do...while"
+            ],
+            "correct_answers": [
+                "for...in"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "What will be printed? const obj={a:10,b:20}; for(let key in obj){ console.log(obj[key]); }",
+            "question_type": "mcq",
+            "options": [
+                "10 20",
+                "a b",
+                "undefined",
+                "Error"
+            ],
+            "correct_answer": "10 20",
+            "marks": 1
+        },
+        {
+            "question_text": "Parameter destructuring allows extracting properties directly in function parameters.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "What will be the output? const fun=({age})=>age; console.log(fun({name:'Sam',age:40}));",
+            "question_type": "mcq",
+            "options": [
+                "Sam",
+                "40",
+                "undefined",
+                "Error"
+            ],
+            "correct_answer": "40",
+            "marks": 1
+        },
+        {
+            "question_text": "Which Git command is used to initialize a repository?",
+            "question_type": "mcq",
+            "options": [
+                "git clone",
+                "git init",
+                "git start",
+                "git create"
+            ],
+            "correct_answer": "git init",
+            "marks": 1
+        },
+        {
+            "question_text": "git add . stages all files in the current directory.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which Git commands are used to send and receive code from remote repository?",
+            "question_type": "checkbox",
+            "options": [
+                "git push",
+                "git pull",
+                "git status",
+                "git config"
+            ],
+            "correct_answers": [
+                "git push",
+                "git pull"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "What does git status do?",
+            "question_type": "mcq",
+            "options": [
+                "Deletes repository",
+                "Shows current state of repository",
+                "Pushes code to GitHub",
+                "Creates new branch"
+            ],
+            "correct_answer": "Shows current state of repository",
+            "marks": 1
+        }
+    ]
+}

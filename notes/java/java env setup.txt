@@ -1,0 +1,8 @@
+1. copy the path where the java is installed
+ C:\Program Files\Java\jdk-23\bin
+ 
+2. In search bar Edit environment variables.
+3. click on environment variables button.
+4. under system variables click on path and edit.
+5. click on new button paste copied path.
+6. clcik on ok.

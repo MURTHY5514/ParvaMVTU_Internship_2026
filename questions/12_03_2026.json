@@ -1,0 +1,232 @@
+{
+  "questions": [
+    {
+      "question_text": "Which loop is best used when the number of iterations is known in advance?",
+      "question_type": "mcq",
+      "options": [
+        "while loop",
+        "do-while loop",
+        "for loop",
+        "switch"
+      ],
+      "correct_answer": "for loop",
+      "marks": 1
+    },
+    {
+      "question_text": "Which loop executes the code block at least once before checking the condition?",
+      "question_type": "mcq",
+      "options": [
+        "for loop",
+        "while loop",
+        "do-while loop",
+        "enhanced for loop"
+      ],
+      "correct_answer": "do-while loop",
+      "marks": 1
+    },
+    {
+      "question_text": "The while loop checks the condition before executing the loop body.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following loops are entry-controlled loops?",
+      "question_type": "checkbox",
+      "options": [
+        "for loop",
+        "while loop",
+        "do-while loop",
+        "enhanced for loop"
+      ],
+      "correct_answers": [
+        "for loop",
+        "while loop"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Which loop is mainly used to iterate through arrays and collections?",
+      "question_type": "mcq",
+      "options": [
+        "for loop",
+        "while loop",
+        "enhanced for loop",
+        "do-while loop"
+      ],
+      "correct_answer": "enhanced for loop",
+      "marks": 1
+    },
+    {
+      "question_text": "Enhanced for loop is also called the for-each loop.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are components of a for loop?",
+      "question_type": "checkbox",
+      "options": [
+        "Initialization",
+        "Condition",
+        "Increment/Decrement",
+        "Compilation"
+      ],
+      "correct_answers": [
+        "Initialization",
+        "Condition",
+        "Increment/Decrement"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be the output? for(int i = 1; i <= 3; i++){ System.out.print(i); }",
+      "question_type": "mcq",
+      "options": [
+        "123",
+        "321",
+        "111",
+        "Error"
+      ],
+      "correct_answer": "123",
+      "marks": 1
+    },
+    {
+      "question_text": "Which keyword is used to exit a switch case in Java?",
+      "question_type": "mcq",
+      "options": [
+        "stop",
+        "break",
+        "exit",
+        "return"
+      ],
+      "correct_answer": "break",
+      "marks": 1
+    },
+    {
+      "question_text": "Switch statements can replace multiple if-else conditions when checking the same variable.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which data types are allowed in a switch statement?",
+      "question_type": "checkbox",
+      "options": [
+        "int",
+        "String",
+        "char",
+        "double"
+      ],
+      "correct_answers": [
+        "int",
+        "String",
+        "char"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "What is a method in Java?",
+      "question_type": "mcq",
+      "options": [
+        "A variable",
+        "A block of code used to perform a specific task",
+        "A loop structure",
+        "A class"
+      ],
+      "correct_answer": "A block of code used to perform a specific task",
+      "marks": 1
+    },
+    {
+      "question_text": "println() and nextInt() are examples of built-in methods.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are examples of built-in methods in Java?",
+      "question_type": "checkbox",
+      "options": [
+        "println()",
+        "nextInt()",
+        "length()",
+        "createMethod()"
+      ],
+      "correct_answers": [
+        "println()",
+        "nextInt()",
+        "length()"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "A method that accepts parameters and returns a value is called:",
+      "question_type": "mcq",
+      "options": [
+        "Method with parameters and return value",
+        "Method with parameters and no return value",
+        "Method with no parameters and return value",
+        "Method with no parameters and no return value"
+      ],
+      "correct_answer": "Method with parameters and return value",
+      "marks": 1
+    },
+    {
+      "question_text": "A method that accepts parameters but does not return any value is called a method with parameters and no return value.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are types of methods based on parameters and return type?",
+      "question_type": "checkbox",
+      "options": [
+        "Method with parameters and return value",
+        "Method with parameters and no return value",
+        "Method with no parameters but return value",
+        "Method with no parameters and no return value"
+      ],
+      "correct_answers": [
+        "Method with parameters and return value",
+        "Method with parameters and no return value",
+        "Method with no parameters but return value",
+        "Method with no parameters and no return value"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Which keyword is used in Java to send a value back from a method?",
+      "question_type": "mcq",
+      "options": [
+        "break",
+        "return",
+        "continue",
+        "exit"
+      ],
+      "correct_answer": "return",
+      "marks": 1
+    },
+    {
+      "question_text": "Static methods can be called using the class name without creating an object.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are advantages of using methods?",
+      "question_type": "checkbox",
+      "options": [
+        "Code reusability",
+        "Better readability",
+        "Reduces duplication",
+        "Increases program errors"
+      ],
+      "correct_answers": [
+        "Code reusability",
+        "Better readability",
+        "Reduces duplication"
+      ],
+      "marks": 2
+    }
+  ]
+}

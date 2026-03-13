@@ -1,0 +1,132 @@
+{
+    "questions": [
+        {
+            "question_text": "Which class is used in Java to take input from the user?",
+            "question_type": "mcq",
+            "options": [
+                "Scanner",
+                "InputReader",
+                "SystemInput",
+                "ConsoleReader"
+            ],
+            "correct_answer": "Scanner",
+            "marks": 1
+        },
+        {
+            "question_text": "Scanner class belongs to the java.util package.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which method is used to read an integer using Scanner?",
+            "question_type": "mcq",
+            "options": [
+                "nextLine()",
+                "nextInt()",
+                "getInt()",
+                "readInt()"
+            ],
+            "correct_answer": "nextInt()",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following Scanner methods are used for user input?",
+            "question_type": "checkbox",
+            "options": [
+                "nextInt()",
+                "nextLine()",
+                "nextDouble()",
+                "print()"
+            ],
+            "correct_answers": [
+                "nextInt()",
+                "nextLine()",
+                "nextDouble()"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "What type of casting is automatically done by Java when converting int to double?",
+            "question_type": "mcq",
+            "options": [
+                "Explicit Casting",
+                "Implicit Casting",
+                "Manual Casting",
+                "Forced Casting"
+            ],
+            "correct_answer": "Implicit Casting",
+            "marks": 1
+        },
+        {
+            "question_text": "Explicit casting must be written by the programmer.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which syntax is used for explicit type casting?",
+            "question_type": "mcq",
+            "options": [
+                "int x = doubleValue",
+                "int x = (int) doubleValue",
+                "int x = convert(doubleValue)",
+                "int x = cast(doubleValue)"
+            ],
+            "correct_answer": "int x = (int) doubleValue",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following are conditional statements in Java?",
+            "question_type": "checkbox",
+            "options": [
+                "if",
+                "else if",
+                "switch",
+                "for"
+            ],
+            "correct_answers": [
+                "if",
+                "else if",
+                "switch"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "What will be the output? int x = 10; if(x > 5){ System.out.println(\"Greater\"); }",
+            "question_type": "mcq",
+            "options": [
+                "Greater",
+                "10",
+                "Error",
+                "Nothing"
+            ],
+            "correct_answer": "Greater",
+            "marks": 1
+        },
+        {
+            "question_text": "The else block executes when the if condition is false.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which keyword is used to stop execution inside a switch case?",
+            "question_type": "mcq",
+            "options": [
+                "stop",
+                "exit",
+                "break",
+                "return"
+            ],
+            "correct_answer": "break",
+            "marks": 1
+        },
+        {
+            "question_text": "Switch statement can be used instead of multiple if-else conditions.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        }
+    ]
+}

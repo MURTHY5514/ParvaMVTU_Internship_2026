@@ -1,0 +1,203 @@
+{
+  "questions": [
+    {
+      "question_text": "What will be the output? const arr1=[1,2,3]; const arr2=arr1; arr1[0]=100; console.log(arr2[0]);",
+      "question_type": "mcq",
+      "options": ["1", "100", "undefined", "Error"],
+      "correct_answer": "100",
+      "marks": 1
+    },
+    {
+      "question_text": "Spread operator (...) creates a shallow copy of an array.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which methods can be used to clone an array?",
+      "question_type": "checkbox",
+      "options": ["spread (...)", "slice()", "concat()", "push()"],
+      "correct_answers": ["spread (...)", "slice()", "concat()"],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be the output? const arr=[10,20,30]; const copy=arr.slice(); arr[1]=200; console.log(copy[1]);",
+      "question_type": "mcq",
+      "options": ["20", "200", "undefined", "Error"],
+      "correct_answer": "20",
+      "marks": 1
+    },
+    {
+      "question_text": "Optional chaining (?.) prevents TypeError when accessing undefined or null properties.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "What will be the output? const obj={a:{b:10}}; console.log(obj?.a?.b);",
+      "question_type": "mcq",
+      "options": ["10", "undefined", "Error", "null"],
+      "correct_answer": "10",
+      "marks": 1
+    },
+    {
+      "question_text": "What will be the output? const obj={}; console.log(obj?.a?.b);",
+      "question_type": "mcq",
+      "options": ["undefined", "Error", "null", "0"],
+      "correct_answer": "undefined",
+      "marks": 1
+    },
+    {
+      "question_text": "HTMLCollection supports forEach() directly.",
+      "question_type": "true_false",
+      "correct_answer": "False",
+      "marks": 1
+    },
+    {
+      "question_text": "Which selector methods return a NodeList?",
+      "question_type": "checkbox",
+      "options": ["querySelectorAll()", "getElementsByClassName()", "querySelector()", "getElementsByTagName()"],
+      "correct_answers": ["querySelectorAll()"],
+      "marks": 2
+    },
+    {
+      "question_text": "What will document.getElementById() return if no element is found?",
+      "question_type": "mcq",
+      "options": ["null", "undefined", "empty string", "Error"],
+      "correct_answer": "null",
+      "marks": 1
+    },
+    {
+      "question_text": "innerText ignores hidden elements (display:none).",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which property returns HTML content including tags?",
+      "question_type": "mcq",
+      "options": ["innerText", "textContent", "innerHTML", "value"],
+      "correct_answer": "innerHTML",
+      "marks": 1
+    },
+    {
+      "question_text": "textContent returns all text including hidden elements.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which methods are used to work with attributes?",
+      "question_type": "checkbox",
+      "options": ["getAttribute()", "setAttribute()", "createElement()", "appendChild()"],
+      "correct_answers": ["getAttribute()", "setAttribute()"],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be the output? const a=document.createElement('p'); console.log(a.nodeName);",
+      "question_type": "mcq",
+      "options": ["p", "P", "paragraph", "undefined"],
+      "correct_answer": "P",
+      "marks": 1
+    },
+    {
+      "question_text": "addEventListener() allows multiple events on the same element.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are mouse events?",
+      "question_type": "checkbox",
+      "options": ["click", "dblclick", "mouseover", "keydown"],
+      "correct_answers": ["click", "dblclick", "mouseover"],
+      "marks": 2
+    },
+    {
+      "question_text": "What event is triggered when a key is pressed down?",
+      "question_type": "mcq",
+      "options": ["keyup", "keydown", "keypressup", "input"],
+      "correct_answer": "keydown",
+      "marks": 1
+    },
+    {
+      "question_text": "The input event triggers whenever the value of an input field changes.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which are form events?",
+      "question_type": "checkbox",
+      "options": ["submit", "change", "blur", "mouseover"],
+      "correct_answers": ["submit", "change", "blur"],
+      "marks": 2
+    },
+    {
+      "question_text": "What will happen if preventDefault() is not used in form submit?",
+      "question_type": "mcq",
+      "options": ["Page reloads", "Nothing happens", "Error", "Form clears only"],
+      "correct_answer": "Page reloads",
+      "marks": 1
+    },
+    {
+      "question_text": "document.querySelector() returns the first matching element.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "What will be the output? console.log(typeof document);",
+      "question_type": "mcq",
+      "options": ["object", "function", "string", "undefined"],
+      "correct_answer": "object",
+      "marks": 1
+    },
+    {
+      "question_text": "Which methods modify the DOM structure?",
+      "question_type": "checkbox",
+      "options": ["appendChild()", "createElement()", "remove()", "getElementById()"],
+      "correct_answers": ["appendChild()", "createElement()", "remove()"],
+      "marks": 2
+    },
+    {
+      "question_text": "Optional chaining works with array indexes like obj?.arr?.[0].",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "What will be printed? const obj={fun:()=>\"Hello\"}; console.log(obj.fun?.());",
+      "question_type": "mcq",
+      "options": ["Hello", "undefined", "Error", "null"],
+      "correct_answer": "Hello",
+      "marks": 1
+    },
+    {
+      "question_text": "Changing a cloned array created using spread will not affect the original array.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which loop can be used directly on NodeList?",
+      "question_type": "checkbox",
+      "options": ["forEach()", "for loop", "map()", "while loop"],
+      "correct_answers": ["forEach()", "for loop", "while loop"],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be the output? const div=document.createElement('div'); div.innerHTML='<p>Hi</p>'; console.log(div.innerText);",
+      "question_type": "mcq",
+      "options": ["Hi", "<p>Hi</p>", "undefined", "Error"],
+      "correct_answer": "Hi",
+      "marks": 1
+    },
+    {
+      "question_text": "If an element has position:absolute, we can move it using style.top and style.left.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    }
+  ]
+}
