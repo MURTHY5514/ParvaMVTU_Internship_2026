@@ -1,0 +1,285 @@
+{
+    "questions": [
+        {
+            "question_text": "What will be the output? for(int i=1;i<=4;i++){ System.out.print(i); }",
+            "question_type": "mcq",
+            "options": [
+                "1234",
+                "4321",
+                "1111",
+                "Error"
+            ],
+            "correct_answer": "1234",
+            "marks": 1
+        },
+        {
+            "question_text": "Which loop is commonly used when the number of iterations is not known beforehand?",
+            "question_type": "mcq",
+            "options": [
+                "for loop",
+                "while loop",
+                "switch",
+                "enhanced for loop"
+            ],
+            "correct_answer": "while loop",
+            "marks": 1
+        },
+        {
+            "question_text": "The do-while loop checks the condition after executing the loop body.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following are looping statements in Java?",
+            "question_type": "checkbox",
+            "options": [
+                "for loop",
+                "while loop",
+                "do-while loop",
+                "if statement"
+            ],
+            "correct_answers": [
+                "for loop",
+                "while loop",
+                "do-while loop"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "What will be the output? int i=0; while(i<3){ System.out.print(i); i++; }",
+            "question_type": "mcq",
+            "options": [
+                "012",
+                "123",
+                "321",
+                "Error"
+            ],
+            "correct_answer": "012",
+            "marks": 1
+        },
+        {
+            "question_text": "Which keyword is used to skip the current iteration of a loop?",
+            "question_type": "mcq",
+            "options": [
+                "skip",
+                "continue",
+                "break",
+                "exit"
+            ],
+            "correct_answer": "continue",
+            "marks": 1
+        },
+        {
+            "question_text": "break statement stops the execution of the loop completely.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following can terminate a loop?",
+            "question_type": "checkbox",
+            "options": [
+                "break",
+                "return",
+                "continue",
+                "stop"
+            ],
+            "correct_answers": [
+                "break",
+                "return"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "What will be the output? int i=3; while(i>0){ System.out.print(i); i--; }",
+            "question_type": "mcq",
+            "options": [
+                "321",
+                "123",
+                "333",
+                "Error"
+            ],
+            "correct_answer": "321",
+            "marks": 1
+        },
+        {
+            "question_text": "What will be the output? int i=1; do{ System.out.print(i); i++; }while(i<=3);",
+            "question_type": "mcq",
+            "options": [
+                "123",
+                "321",
+                "12",
+                "Error"
+            ],
+            "correct_answer": "123",
+            "marks": 1
+        },
+        {
+            "question_text": "Infinite loop means the loop never stops executing.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which statements can create an infinite loop?",
+            "question_type": "checkbox",
+            "options": [
+                "for(;;)",
+                "while(true)",
+                "do{}while(true);",
+                "for(int i=0;i<5;i++)"
+            ],
+            "correct_answers": [
+                "for(;;)",
+                "while(true)",
+                "do{}while(true);"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "What will be the output? int sum=0; for(int i=1;i<=2;i++){ sum+=i; } System.out.print(sum);",
+            "question_type": "mcq",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct_answer": "3",
+            "marks": 1
+        },
+        {
+            "question_text": "A method in Java is used to perform a specific task.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which keyword is used to define a method that does not return any value?",
+            "question_type": "mcq",
+            "options": [
+                "null",
+                "void",
+                "return",
+                "static"
+            ],
+            "correct_answer": "void",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following are parts of a method?",
+            "question_type": "checkbox",
+            "options": [
+                "Return type",
+                "Method name",
+                "Parameters",
+                "Loop counter"
+            ],
+            "correct_answers": [
+                "Return type",
+                "Method name",
+                "Parameters"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Which keyword is used to send a value back from a method?",
+            "question_type": "mcq",
+            "options": [
+                "break",
+                "return",
+                "continue",
+                "exit"
+            ],
+            "correct_answer": "return",
+            "marks": 1
+        },
+        {
+            "question_text": "Methods help reduce code duplication.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "What will be the output? static int add(int a,int b){ return a+b;} System.out.print(add(3,2));",
+            "question_type": "mcq",
+            "options": [
+                "5",
+                "6",
+                "32",
+                "Error"
+            ],
+            "correct_answer": "5",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following are advantages of using methods?",
+            "question_type": "checkbox",
+            "options": [
+                "Code reuse",
+                "Better readability",
+                "Reduced duplication",
+                "Increase complexity"
+            ],
+            "correct_answers": [
+                "Code reuse",
+                "Better readability",
+                "Reduced duplication"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Static methods belong to the class rather than objects.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "What will be the output? int x=2; for(int i=1;i<=2;i++){ x++; } System.out.print(x);",
+            "question_type": "mcq",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correct_answer": "4",
+            "marks": 1
+        },
+        {
+            "question_text": "Which syntax correctly calls a method named display?",
+            "question_type": "mcq",
+            "options": [
+                "display();",
+                "call display;",
+                "run display();",
+                "execute display();"
+            ],
+            "correct_answer": "display();",
+            "marks": 1
+        },
+        {
+            "question_text": "Methods can accept input values called parameters.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following are valid parameter types in Java methods?",
+            "question_type": "checkbox",
+            "options": [
+                "int",
+                "double",
+                "String",
+                "loop"
+            ],
+            "correct_answers": [
+                "int",
+                "double",
+                "String"
+            ],
+            "marks": 2
+        }
+    ]
+}
