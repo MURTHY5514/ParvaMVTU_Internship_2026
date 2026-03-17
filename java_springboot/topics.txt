@@ -1,0 +1,8 @@
+1. Arrays and Strings in Java (string methods, string buikder and buffer methods)
+2. OOP --> class, object , inheritence, poly, encapsulation, abstraction
+3. exception handling --> try, ctach, finally, throw, throws
+4. Collection framework --> list(arraylist, linkedlist), set, map, queue
+5. generics 
+6. java 8 features --> lambda, functionaal interface, date time
+7. multi threading
+8. file handling
