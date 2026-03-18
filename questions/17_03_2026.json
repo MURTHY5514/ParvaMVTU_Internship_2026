@@ -1,0 +1,285 @@
+{
+  "questions": [
+    {
+      "question_text": "An array in Java stores elements of:",
+      "question_type": "mcq",
+      "options": [
+        "Different data types",
+        "Same data type",
+        "Only integers",
+        "Only strings"
+      ],
+      "correct_answer": "Same data type",
+      "marks": 1
+    },
+    {
+      "question_text": "What is the index range of an array of size 4?",
+      "question_type": "mcq",
+      "options": [
+        "1 to 4",
+        "0 to 4",
+        "0 to 3",
+        "1 to 3"
+      ],
+      "correct_answer": "0 to 3",
+      "marks": 1
+    },
+    {
+      "question_text": "Array index always starts from 0.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are valid array declarations?",
+      "question_type": "checkbox",
+      "options": [
+        "int arr[] = new int[5];",
+        "int[] arr = new int[5];",
+        "int arr = new int[5];",
+        "int arr[] = {1,2,3};"
+      ],
+      "correct_answers": [
+        "int arr[] = new int[5];",
+        "int[] arr = new int[5];",
+        "int arr[] = {1,2,3};"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be the output? int arr[] = {1,2,3}; System.out.print(arr[1]);",
+      "question_type": "mcq",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Error"
+      ],
+      "correct_answer": "2",
+      "marks": 1
+    },
+    {
+      "question_text": "Accessing arr[5] in an array of size 5 will result in error.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which loop is commonly used to traverse an array?",
+      "question_type": "mcq",
+      "options": [
+        "if",
+        "for loop",
+        "switch",
+        "break"
+      ],
+      "correct_answer": "for loop",
+      "marks": 1
+    },
+    {
+      "question_text": "What will be the output? int arr[]={10,20,30}; System.out.print(arr.length);",
+      "question_type": "mcq",
+      "options": [
+        "2",
+        "3",
+        "30",
+        "Error"
+      ],
+      "correct_answer": "3",
+      "marks": 1
+    },
+    {
+      "question_text": "Arrays.toString(arr) is used to:",
+      "question_type": "mcq",
+      "options": [
+        "Sort array",
+        "Convert array to string format",
+        "Add elements",
+        "Delete elements"
+      ],
+      "correct_answer": "Convert array to string format",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are types of arrays?",
+      "question_type": "checkbox",
+      "options": [
+        "1D",
+        "2D",
+        "Multi-dimensional",
+        "Static only"
+      ],
+      "correct_answers": [
+        "1D",
+        "2D",
+        "Multi-dimensional"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "A 2D array is also called:",
+      "question_type": "mcq",
+      "options": [
+        "Single array",
+        "Matrix",
+        "Object",
+        "String"
+      ],
+      "correct_answer": "Matrix",
+      "marks": 1
+    },
+    {
+      "question_text": "What will be the total elements in int arr[2][3]?",
+      "question_type": "mcq",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "correct_answer": "6",
+      "marks": 1
+    },
+    {
+      "question_text": "Object array can store different data types.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which values can be stored in Object array?",
+      "question_type": "checkbox",
+      "options": [
+        "Integer",
+        "String",
+        "Character",
+        "All of the above"
+      ],
+      "correct_answers": [
+        "Integer",
+        "String",
+        "Character"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "String in Java is:",
+      "question_type": "mcq",
+      "options": [
+        "Primitive",
+        "Object",
+        "Method",
+        "Loop"
+      ],
+      "correct_answer": "Object",
+      "marks": 1
+    },
+    {
+      "question_text": "String literals are stored in String Constant Pool.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which ways can we create a string?",
+      "question_type": "checkbox",
+      "options": [
+        "Using literal",
+        "Using new keyword",
+        "Using array only",
+        "Using constructor"
+      ],
+      "correct_answers": [
+        "Using literal",
+        "Using new keyword",
+        "Using constructor"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Which method compares string values?",
+      "question_type": "mcq",
+      "options": [
+        "==",
+        ".equals()",
+        ".compare()",
+        ".check()"
+      ],
+      "correct_answer": ".equals()",
+      "marks": 1
+    },
+    {
+      "question_text": "== operator compares references in strings.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "compareTo() returns 0 when:",
+      "question_type": "mcq",
+      "options": [
+        "Strings are equal",
+        "First string is greater",
+        "Second string is greater",
+        "Error"
+      ],
+      "correct_answer": "Strings are equal",
+      "marks": 1
+    },
+    {
+      "question_text": "Strings in Java are immutable.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which classes are used to create mutable strings?",
+      "question_type": "checkbox",
+      "options": [
+        "StringBuffer",
+        "StringBuilder",
+        "String",
+        "Scanner"
+      ],
+      "correct_answers": [
+        "StringBuffer",
+        "StringBuilder"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Which method is used to add text in StringBuffer or StringBuilder?",
+      "question_type": "mcq",
+      "options": [
+        "add()",
+        "append()",
+        "concat()",
+        "insert()"
+      ],
+      "correct_answer": "append()",
+      "marks": 1
+    },
+    {
+      "question_text": "StringBuilder is faster than StringBuffer.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are advantages of StringBuilder/StringBuffer over String?",
+      "question_type": "checkbox",
+      "options": [
+        "Mutable",
+        "Faster modification",
+        "Consumes less memory in changes",
+        "Immutable"
+      ],
+      "correct_answers": [
+        "Mutable",
+        "Faster modification",
+        "Consumes less memory in changes"
+      ],
+      "marks": 2
+    }
+  ]
+}

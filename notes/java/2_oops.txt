@@ -1,0 +1,54 @@
+Class:
+======
+* It will repreent the state and behaviour of an obejct.
+
+state ---> properties of an object(variables).
+
+behaviour ---> actions of an object(functions/method)
+
+syntax:
+=======
+
+access_modifier class class_name{
+		// properties
+		
+		// behaviour
+}
+
+public class Car{
+	String carName;
+	long price;
+	
+	public void canDrive(){
+		syso("Yes");
+	}
+}
+
+
+Object:
+=======
+* Object is the implementaion of the class.
+* class will not take a memory, where as object will.
+* to create object in java we use "new".
+* we can create n no object per a perticular class
+//syntax:
+=========
+new class_name();
+
+class_name obj_name = new class_name();
+
+ex:
+===
+Student ---> Mohan,  Rahul.
+Employee --> Pavan.
+
+
+access modifiers:
+=================
+1. private - within the class only
+2. default or package private - same package
+3. protected  - same package + subclass(child)of any package.
+4. public - anywhere
+
+Constructors:
+=============

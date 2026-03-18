@@ -1,0 +1,58 @@
+1. Input and Print Elements
+	Q1:
+	Write a Java program to:
+
+	Create an integer array of size 5
+
+	Take 5 numbers from the user
+
+	Print them all one by one
+
+
+2. Find the Largest Number
+	Q2:
+	Write a Java program to find the maximum number in a 1D array.
+	
+	
+3. Find the Smallest Number
+
+	Q3:
+	Write a Java program to find the minimum number in an array.
+	
+
+4. Sum of Elements
+
+	Q4:
+	Write a Java program to find the sum of all elements in an array.
+	
+5. Average of Array
+
+	Q5:
+	Write a Java program to compute the average of numbers stored in a 1D array.
+
+6. Count Even and Odd Numbers
+
+	Q6:
+	Write a program to count how many numbers are even and how many are odd in an array.
+	
+7. Search Element
+
+	Q7:
+	Write a program to search for an element in an array.
+	If found → print index
+	If not found → print “Not Found”.
+	
+8. Reverse Array
+
+	Q8:
+	Write a program to print an array in reverse order.
+	
+9. Copy One Array to Another
+
+	Q9:
+	Write a program to copy all elements of one array into another new array.
+
+10. Second Largest Number
+
+	Q10:
+	Write a program to find the second largest number in an array.
