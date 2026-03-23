@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "question_text": "A class in Java represents:",
+      "question_type": "mcq",
+      "options": [
+        "Only data",
+        "Only methods",
+        "State and behaviour of an object",
+        "Loop structure"
+      ],
+      "correct_answer": "State and behaviour of an object",
+      "marks": 1
+    },
+    {
+      "question_text": "Which keyword is used to create an object in Java?",
+      "question_type": "mcq",
+      "options": [
+        "this",
+        "new",
+        "class",
+        "object"
+      ],
+      "correct_answer": "new",
+      "marks": 1
+    },
+    {
+      "question_text": "Class does not take memory until an object is created.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are properties of a class?",
+      "question_type": "checkbox",
+      "options": [
+        "Variables",
+        "Methods",
+        "Loops",
+        "Conditions"
+      ],
+      "correct_answers": [
+        "Variables"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Which of the following are behaviours of a class?",
+      "question_type": "checkbox",
+      "options": [
+        "Functions",
+        "Methods",
+        "Variables",
+        "Statements"
+      ],
+      "correct_answers": [
+        "Functions",
+        "Methods"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be the output? Car c = new Car(); System.out.println(c.name);",
+      "question_type": "mcq",
+      "options": [
+        "Tesla",
+        "Error",
+        "null",
+        "0"
+      ],
+      "correct_answer": "Tesla",
+      "marks": 1
+    },
+    {
+      "question_text": "Which access modifier allows access only within the same class?",
+      "question_type": "mcq",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "default"
+      ],
+      "correct_answer": "private",
+      "marks": 1
+    },
+    {
+      "question_text": "Default access modifier allows access within same package.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which class is used to take input from user in Java?",
+      "question_type": "mcq",
+      "options": [
+        "System",
+        "Scanner",
+        "Input",
+        "Reader"
+      ],
+      "correct_answer": "Scanner",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are valid object creation statements?",
+      "question_type": "checkbox",
+      "options": [
+        "Employee emp = new Employee();",
+        "new Employee();",
+        "Employee emp;",
+        "Employee = new emp();"
+      ],
+      "correct_answers": [
+        "Employee emp = new Employee();",
+        "new Employee();"
+      ],
+      "marks": 2
+    }
+  ]
+}

@@ -52,3 +52,22 @@ access modifiers:
 
 Constructors:
 =============
+* it a special type of method where method name is same as class name.
+* it is used to initialize the instance variables.
+* we creat n no of constructor for each class.
+* doesn't contain any return type.
+* constructor will call automatically when the obejct is created using new keyword
+
+instance variables:
+===================
+* the varibles is belongs to object(instance).
+
+types of constructors:
+======================
+1. default construcctor:
+========================
+* whenever we careate a obejct for a perticular class jvm will create a constructor this we called  default constructor.
+
+
+2. no-args constructor.
+3. args constructor.
