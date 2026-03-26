@@ -1,0 +1,162 @@
+{
+  "questions": [
+    {
+      "question_text": "Abstract class in Java is declared using:",
+      "question_type": "mcq",
+      "options": [
+        "interface",
+        "abstract",
+        "extends",
+        "implements"
+      ],
+      "correct_answer": "abstract",
+      "marks": 1
+    },
+    {
+      "question_text": "Abstract class can have both abstract and non-abstract methods.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which keyword is used to implement interface?",
+      "question_type": "mcq",
+      "options": [
+        "extends",
+        "implements",
+        "interface",
+        "super"
+      ],
+      "correct_answer": "implements",
+      "marks": 1
+    },
+    {
+      "question_text": "Interface methods are by default:",
+      "question_type": "mcq",
+      "options": [
+        "private",
+        "protected",
+        "public and abstract",
+        "static only"
+      ],
+      "correct_answer": "public and abstract",
+      "marks": 1
+    },
+    {
+      "question_text": "A class can implement multiple interfaces.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which keyword refers to current class object?",
+      "question_type": "mcq",
+      "options": [
+        "super",
+        "this",
+        "current",
+        "self"
+      ],
+      "correct_answer": "this",
+      "marks": 1
+    },
+    {
+      "question_text": "Which keyword is used to access parent class variable?",
+      "question_type": "mcq",
+      "options": [
+        "this",
+        "parent",
+        "super",
+        "base"
+      ],
+      "correct_answer": "super",
+      "marks": 1
+    },
+    {
+      "question_text": "this() is used to call current class constructor.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "super() is used to call:",
+      "question_type": "mcq",
+      "options": [
+        "Same class constructor",
+        "Parent class constructor",
+        "Interface constructor",
+        "Static method"
+      ],
+      "correct_answer": "Parent class constructor",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are features of interface?",
+      "question_type": "checkbox",
+      "options": [
+        "Multiple inheritance",
+        "Abstract methods",
+        "Instance variables",
+        "Public methods"
+      ],
+      "correct_answers": [
+        "Multiple inheritance",
+        "Abstract methods",
+        "Public methods"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Abstract class can have constructor.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following is correct?",
+      "question_type": "mcq",
+      "options": [
+        "Interface can have constructors",
+        "Abstract class cannot have methods",
+        "Interface cannot have object creation",
+        "Abstract class must be final"
+      ],
+      "correct_answer": "Interface cannot have object creation",
+      "marks": 1
+    },
+    {
+      "question_text": "Which keyword is used to refer current class variable?",
+      "question_type": "mcq",
+      "options": [
+        "super",
+        "this",
+        "self",
+        "current"
+      ],
+      "correct_answer": "this",
+      "marks": 1
+    },
+    {
+      "question_text": "Interface variables are by default final and static.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following uses super keyword?",
+      "question_type": "checkbox",
+      "options": [
+        "Access parent variable",
+        "Call parent constructor",
+        "Call parent method",
+        "Create object"
+      ],
+      "correct_answers": [
+        "Access parent variable",
+        "Call parent constructor",
+        "Call parent method"
+      ],
+      "marks": 2
+    }
+  ]
+}

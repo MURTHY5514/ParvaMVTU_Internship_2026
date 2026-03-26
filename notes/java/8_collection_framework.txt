@@ -1,0 +1,37 @@
+Collection Framework:
+=====================
+why we need collection framework:
+=================================
+* to overcome the draw backs of an array.
+
+draw backs of an array:
+=======================
+* it will store same type of value.
+* fixed in size.
+* it will take a sapce in continous memory location
+
+advantages of an array:
+=======================
+* random access - arr[30]
+* type safety:
+==============
+ the elements in side the array is based on the data type.
+	int[20] --> we can store only intger values.
+* type casting:
+===============
+  to print the values in the array  no need to type cast
+
+
+Collection:
+===========
+* When you represent a group of individual objects as a single entity then we should go for collection.
+* it is a root interface in collection framework
+* we can store many data types.
+
+
+
+List:
+=====
+* it is child interface of collection.
+* it will contains some methods this we can use in only implemented class.
+* When you represent a group of individual objects as a single entity where order is preserved and index based access and duplicate is allowd then we should go for list.

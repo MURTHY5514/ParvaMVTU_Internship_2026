@@ -1,0 +1,12 @@
+Polymorphism:
+=============
+* it is a mechanism that methos or object  will perform a different actions based on the situation
+1. method-overloading(compile / one class):
+* same method name but different parameters
+2. method-overriding(run-time / two class)
+
+
+
+Encapsulation:
+==============
+* Encapsulation is amechanism that binding the data into a single unit i,e making fields(state) as private and methods as public using getter and setter.

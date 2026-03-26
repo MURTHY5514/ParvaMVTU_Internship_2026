@@ -1,0 +1,168 @@
+{
+  "questions": [
+    {
+      "question_text": "Inheritance in Java is used for:",
+      "question_type": "mcq",
+      "options": [
+        "Loop execution",
+        "Extending properties from parent class",
+        "Deleting objects",
+        "Creating packages"
+      ],
+      "correct_answer": "Extending properties from parent class",
+      "marks": 1
+    },
+    {
+      "question_text": "Which keyword is used for inheritance in Java?",
+      "question_type": "mcq",
+      "options": [
+        "implement",
+        "inherits",
+        "extends",
+        "super"
+      ],
+      "correct_answer": "extends",
+      "marks": 1
+    },
+    {
+      "question_text": "A child class can access public members of parent class.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following is multilevel inheritance?",
+      "question_type": "mcq",
+      "options": [
+        "A -> B",
+        "A -> B -> C",
+        "A, B -> C",
+        "A -> B, C"
+      ],
+      "correct_answer": "A -> B -> C",
+      "marks": 1
+    },
+    {
+      "question_text": "Which keyword refers to current object?",
+      "question_type": "mcq",
+      "options": [
+        "super",
+        "this",
+        "self",
+        "object"
+      ],
+      "correct_answer": "this",
+      "marks": 1
+    },
+    {
+      "question_text": "super keyword is used to access parent class members.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are types of inheritance?",
+      "question_type": "checkbox",
+      "options": [
+        "Single",
+        "Multilevel",
+        "Hierarchical",
+        "Loop inheritance"
+      ],
+      "correct_answers": [
+        "Single",
+        "Multilevel",
+        "Hierarchical"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Method overloading happens in:",
+      "question_type": "mcq",
+      "options": [
+        "Different classes",
+        "Same class",
+        "Different packages",
+        "Interfaces only"
+      ],
+      "correct_answer": "Same class",
+      "marks": 1
+    },
+    {
+      "question_text": "Method overriding requires inheritance.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Polymorphism means:",
+      "question_type": "mcq",
+      "options": [
+        "Multiple variables",
+        "Same method different behavior",
+        "Multiple classes",
+        "Multiple packages"
+      ],
+      "correct_answer": "Same method different behavior",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following is method overloading?",
+      "question_type": "mcq",
+      "options": [
+        "Same method name different parameters",
+        "Different method name same parameters",
+        "Same class multiple objects",
+        "Parent class method call"
+      ],
+      "correct_answer": "Same method name different parameters",
+      "marks": 1
+    },
+    {
+      "question_text": "Runtime polymorphism is achieved using:",
+      "question_type": "mcq",
+      "options": [
+        "Method overloading",
+        "Method overriding",
+        "Constructor",
+        "Encapsulation"
+      ],
+      "correct_answer": "Method overriding",
+      "marks": 1
+    },
+    {
+      "question_text": "Encapsulation means binding data and methods together.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are features of encapsulation?",
+      "question_type": "checkbox",
+      "options": [
+        "Private variables",
+        "Public getters/setters",
+        "Direct variable access",
+        "Data hiding"
+      ],
+      "correct_answers": [
+        "Private variables",
+        "Public getters/setters",
+        "Data hiding"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Which keyword is used to call parent class constructor?",
+      "question_type": "mcq",
+      "options": [
+        "this()",
+        "parent()",
+        "super()",
+        "base()"
+      ],
+      "correct_answer": "super()",
+      "marks": 1
+    }
+  ]
+}

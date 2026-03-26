@@ -1,0 +1,13 @@
+this:
+=====
+* this is a keyword it will points to the current instance of the class.
+* using this we can access. 
+	1. variables(instance, static)
+	2. methods
+	3. constructor
+	
+
+
+super:
+======
+* super is a keyword use dto access the immidate partnet class (variables, constructor, methods).

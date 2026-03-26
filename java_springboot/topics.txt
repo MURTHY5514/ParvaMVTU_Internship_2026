@@ -1,5 +1,5 @@
 1. Arrays and Strings in Java (string methods, string buikder and buffer methods)
-2. OOP --> class, object , inheritence, poly, encapsulation, abstraction
+2. OOP --> class, object , inheritence, poly, encapsulation, abstraction, this, super, final , static.
 3. exception handling --> try, ctach, finally, throw, throws
 4. Collection framework --> list(arraylist, linkedlist), set, map, queue
 5. generics 

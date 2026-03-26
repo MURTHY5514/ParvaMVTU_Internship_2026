@@ -1,0 +1,33 @@
+Final and static Keyword:
+=========================
+1. Final variables:
+===================
+* we can't able to change the value.
+
+2. Final methods:
+=================
+* we can't able to override.
+
+3. Final class:
+===============
+* A final class cannot be extended.
+* ex: String class
+
+
+
+static:
+=======
+* it's belongs to class not obejct.
+* no need to create a object  to access.
+
+static variable: 
+================
+* one shared value for all objects
+
+static method: can be called using the class name
+
+
+1. static block / static initializer
+2. instance block / instance initializer
+3. enum
+4. methods in list interface

@@ -1,0 +1,27 @@
+Abstraction:
+============
+* it is a process of hiding the implementation and showing essential resources to user.
+
+2 ways:
+=======
+1. abstract class:
+==================
+* class with abstract keyword.
+* it must contain aleast one abstract method.
+* we can achive 0 - 100%.
+* we can't ablee to createa object for abstract class.
+
+2. interface:
+=============
+* we can achive 100%.
+* here we can create only abstract method.
+* it is a blueprint of class.
+* the methods in interface is default abstract only.
+* variables in interface by default it is public, static, final(can't change it's value).
+* from java 8 onwards we can create a default and stataic methods in interface.
+* from javva 9 onwards we can create private methods in inteface
+
+
+abstract method:
+================
+* the method doesn't conatin body.

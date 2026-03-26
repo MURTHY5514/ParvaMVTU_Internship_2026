@@ -1,0 +1,26 @@
+* Inheritance (extends):
+* ======================
+* * extending the properties of parent(base/super) class to child class
+* properties:
+* ===========
+* state and actions
+* 
+* types of inheritance:
+* =====================
+* 1. single
+* 2. multi-level - child -- parent --- grandparent
+* 3. hybrid
+* 4. multiple - using interface we can achieve
+* 5. Hierarchical
+
+this:
+=====
+* it is keyword that will points to current instance(object)  of the class.
+
+super:
+======
+* it is a keyword used to access the immediate parent class constructor, instance variables, methhods.
+
+class ---- extends ---> class
+interface --- implements ---> class
+interface --- extends ---> interface

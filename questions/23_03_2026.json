@@ -1,0 +1,119 @@
+{
+  "questions": [
+    {
+      "question_text": "A constructor in Java is used for:",
+      "question_type": "mcq",
+      "options": [
+        "Looping",
+        "Initializing objects",
+        "Deleting objects",
+        "Printing output"
+      ],
+      "correct_answer": "Initializing objects",
+      "marks": 1
+    },
+    {
+      "question_text": "Constructor name must be same as class name.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following is a valid constructor?",
+      "question_type": "mcq",
+      "options": [
+        "void Student() {}",
+        "Student() {}",
+        "int Student() {}",
+        "return Student() {}"
+      ],
+      "correct_answer": "Student() {}",
+      "marks": 1
+    },
+    {
+      "question_text": "Default constructor is created by JVM when:",
+      "question_type": "mcq",
+      "options": [
+        "Class has no constructor",
+        "Class has one constructor",
+        "Object is deleted",
+        "Method is called"
+      ],
+      "correct_answer": "Class has no constructor",
+      "marks": 1
+    },
+    {
+      "question_text": "Which keyword is used to create an object?",
+      "question_type": "mcq",
+      "options": [
+        "this",
+        "new",
+        "class",
+        "create"
+      ],
+      "correct_answer": "new",
+      "marks": 1
+    },
+    {
+      "question_text": "Constructors can have return type.",
+      "question_type": "true_false",
+      "correct_answer": "False",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are types of constructors?",
+      "question_type": "checkbox",
+      "options": [
+        "Default constructor",
+        "No-args constructor",
+        "Parameterized constructor",
+        "Loop constructor"
+      ],
+      "correct_answers": [
+        "Default constructor",
+        "No-args constructor",
+        "Parameterized constructor"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "What will be the output? class A { A(){ System.out.println(\"Hello\"); } } A a = new A();",
+      "question_type": "mcq",
+      "options": [
+        "Hello",
+        "Error",
+        "null",
+        "Nothing"
+      ],
+      "correct_answer": "Hello",
+      "marks": 1
+    },
+    {
+      "question_text": "Instance variables belong to:",
+      "question_type": "mcq",
+      "options": [
+        "Class",
+        "Object",
+        "Method",
+        "Loop"
+      ],
+      "correct_answer": "Object",
+      "marks": 1
+    },
+    {
+      "question_text": "Which of the following are valid constructor usages?",
+      "question_type": "checkbox",
+      "options": [
+        "Person p = new Person();",
+        "new Person();",
+        "Person();",
+        "Person p;"
+      ],
+      "correct_answers": [
+        "Person p = new Person();",
+        "new Person();"
+      ],
+      "marks": 2
+    }
+  ]
+}

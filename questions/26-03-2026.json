@@ -1,0 +1,209 @@
+{
+    "questions": [
+        {
+            "question_text": "Final variable in Java means:",
+            "question_type": "mcq",
+            "options": [
+                "Value can be changed",
+                "Value cannot be changed",
+                "Variable becomes static",
+                "Variable becomes private"
+            ],
+            "correct_answer": "Value cannot be changed",
+            "marks": 1
+        },
+        {
+            "question_text": "Final method cannot be overridden.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Final class cannot be inherited.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which keyword is used to declare constant in Java?",
+            "question_type": "mcq",
+            "options": [
+                "static",
+                "final",
+                "const",
+                "immutable"
+            ],
+            "correct_answer": "final",
+            "marks": 1
+        },
+        {
+            "question_text": "Static keyword is related to:",
+            "question_type": "mcq",
+            "options": [
+                "Object",
+                "Class",
+                "Method only",
+                "Constructor"
+            ],
+            "correct_answer": "Class",
+            "marks": 1
+        },
+        {
+            "question_text": "Static variable is shared among all objects.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Static methods can access:",
+            "question_type": "mcq",
+            "options": [
+                "Only instance variables",
+                "Only static members",
+                "Both static and instance directly",
+                "None"
+            ],
+            "correct_answer": "Only static members",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following are valid constructor usages?",
+            "question_type": "checkbox",
+            "options": [
+                "Person p = new Person();",
+                "new Person();",
+                "Person();",
+                "Person p;"
+            ],
+            "correct_answers": [
+                "Person p = new Person();",
+                "new Person();"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Array size in Java is dynamic.",
+            "question_type": "true_false",
+            "correct_answer": "False",
+            "marks": 1
+        },
+        {
+            "question_text": "Which is advantage of array?",
+            "question_type": "mcq",
+            "options": [
+                "Dynamic size",
+                "Random access",
+                "Stores multiple data types",
+                "Flexible memory"
+            ],
+            "correct_answer": "Random access",
+            "marks": 1
+        },
+        {
+            "question_text": "Collection is root interface in collection framework.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Collection is used to:",
+            "question_type": "mcq",
+            "options": [
+                "Store single value",
+                "Store group of objects",
+                "Create arrays",
+                "Execute loops"
+            ],
+            "correct_answer": "Store group of objects",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following are drawbacks of array?",
+            "question_type": "checkbox",
+            "options": [
+                "Fixed size",
+                "Same data type",
+                "Dynamic resizing",
+                "Continuous memory required"
+            ],
+            "correct_answers": [
+                "Fixed size",
+                "Same data type",
+                "Continuous memory required"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "List interface maintains order of elements.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "List allows duplicate elements.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which method is used to add element in List?",
+            "question_type": "mcq",
+            "options": [
+                "put()",
+                "insert()",
+                "add()",
+                "append()"
+            ],
+            "correct_answer": "add()",
+            "marks": 1
+        },
+        {
+            "question_text": "Which method is used to get size of List?",
+            "question_type": "mcq",
+            "options": [
+                "length()",
+                "size()",
+                "count()",
+                "getSize()"
+            ],
+            "correct_answer": "size()",
+            "marks": 1
+        },
+        {
+            "question_text": "Which method is used to retrieve element by index?",
+            "question_type": "mcq",
+            "options": [
+                "add()",
+                "get()",
+                "fetch()",
+                "read()"
+            ],
+            "correct_answer": "get()",
+            "marks": 1
+        },
+        {
+            "question_text": "ArrayList is implementation of:",
+            "question_type": "mcq",
+            "options": [
+                "Set",
+                "Map",
+                "List",
+                "Queue"
+            ],
+            "correct_answer": "List",
+            "marks": 1
+        },
+        {
+            "question_text": "OOP concept used when child class inherits parent class:",
+            "question_type": "mcq",
+            "options": [
+                "Encapsulation",
+                "Inheritance",
+                "Polymorphism",
+                "Abstraction"
+            ],
+            "correct_answer": "Inheritance",
+            "marks": 1
+        }
+    ]
+}
