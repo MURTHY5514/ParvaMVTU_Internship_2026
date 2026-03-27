@@ -1,5 +1,6 @@
 Collection Framework:
 =====================
+* we can't able to use primitive data types in the collection.
 why we need collection framework:
 =================================
 * to overcome the draw backs of an array.
@@ -35,3 +36,73 @@ List:
 * it is child interface of collection.
 * it will contains some methods this we can use in only implemented class.
 * When you represent a group of individual objects as a single entity where order is preserved and index based access and duplicate is allowd then we should go for list.
+
+
+ArrayList:
+==========
+* Array list is a improved version of dynamic array.
+* the underline data str is dynamic array.
+* it will allow duplicate values.
+* it will allow null values.
+* order of insertion is preserved.
+
+
+
+generics:
+=========
+* to over come the problem of type safety and type cast in collection framework then we should go for generics.
+<T>
+
+write our own  class as genrics:
+================================
+class class_name<T>{
+	<T> var_name;
+}
+
+
+Wrapper classes:
+================
+* primitive datatypes will not support in collection.
+
+primitive data types:
+=====================
+byte, short, int, long, float, double, boolean, char
+
+nonprimitive:
+=============
+String
+
+byte --> Byte
+short --> Short
+int --> Integer
+float --> Float
+double --> Double
+boolean --> Boolean
+char --> Character
+
+autoboxing and unboxing:
+========================
+Autoboxing:
+===========
+* It will convert from primitive to Wrapper.
+
+
+unboxing:
+=========
+* It will convert to Wrapper to primitive.
+
+
+
+Collections:
+============
+* The Collections class, part of the Java Collections Framework, offers a wide range of utility methods that help reduce boilerplate code. 
+1. sort(List)/reverse(List): Sorts the list into ascending order or reverses its elements.
+2. binarySearch(List, key): Searches for a specified object in a sorted list.
+3. shuffle(List): Randomly permutes the list.
+4. min(Collection) / max(Collection): Returns the minimum or maximum element in a given collection.
+5.frequency(Collection, Object): Returns the count of specific objects in a collection.
+6. addAll(Collection, T... elements): Adds all specified elements to a collection.
+7. copy(List dest, List src) / fill(List list, T obj): Copies elements from a source to a destination or fills a list with a single element.
+
+LinkedList and Arrays:
+======================
