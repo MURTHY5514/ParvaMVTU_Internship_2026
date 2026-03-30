@@ -1,0 +1,247 @@
+{
+  "questions": [
+    {
+      "question_text": "Comparable interface is used for:",
+      "question_type": "mcq",
+      "options": [
+        "Custom sorting",
+        "Natural sorting",
+        "Random sorting",
+        "Hash sorting"
+      ],
+      "correct_answer": "Natural sorting",
+      "marks": 1
+    },
+    {
+      "question_text": "Comparator interface is used for custom sorting.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "compare() method returns:",
+      "question_type": "checkbox",
+      "options": [
+        "Negative value",
+        "Zero",
+        "Positive value",
+        "Boolean"
+      ],
+      "correct_answers": [
+        "Negative value",
+        "Zero",
+        "Positive value"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "HashSet allows duplicate values.",
+      "question_type": "true_false",
+      "correct_answer": "False",
+      "marks": 1
+    },
+    {
+      "question_text": "Which Set implementation maintains sorted order?",
+      "question_type": "mcq",
+      "options": [
+        "HashSet",
+        "LinkedHashSet",
+        "TreeSet",
+        "ArraySet"
+      ],
+      "correct_answer": "TreeSet",
+      "marks": 1
+    },
+    {
+      "question_text": "HashSet allows one null value.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "TreeSet does NOT allow:",
+      "question_type": "mcq",
+      "options": [
+        "Duplicates",
+        "Null values",
+        "Sorting",
+        "Integers"
+      ],
+      "correct_answer": "Null values",
+      "marks": 1
+    },
+    {
+      "question_text": "Map stores data in:",
+      "question_type": "mcq",
+      "options": [
+        "Key-value pairs",
+        "Index-value pairs",
+        "Only values",
+        "Only keys"
+      ],
+      "correct_answer": "Key-value pairs",
+      "marks": 1
+    },
+    {
+      "question_text": "HashMap allows one null key.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "TreeMap stores keys in:",
+      "question_type": "mcq",
+      "options": [
+        "Random order",
+        "Insertion order",
+        "Sorted order",
+        "Reverse order only"
+      ],
+      "correct_answer": "Sorted order",
+      "marks": 1
+    },
+    {
+      "question_text": "Which iteration methods are valid for Set?",
+      "question_type": "checkbox",
+      "options": [
+        "for-each loop",
+        "Iterator",
+        "for loop using index",
+        "forEach lambda"
+      ],
+      "correct_answers": [
+        "for-each loop",
+        "Iterator",
+        "forEach lambda"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Set does not support index-based access.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Collections.sort() works on:",
+      "question_type": "mcq",
+      "options": [
+        "List only",
+        "Set only",
+        "Map only",
+        "Array only"
+      ],
+      "correct_answer": "List only",
+      "marks": 1
+    },
+    {
+      "question_text": "Generics provide type safety.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Wrapper classes are used because:",
+      "question_type": "mcq",
+      "options": [
+        "Collections don't support primitives",
+        "For faster execution",
+        "To reduce memory",
+        "For sorting only"
+      ],
+      "correct_answer": "Collections don't support primitives",
+      "marks": 1
+    },
+    {
+      "question_text": "Which are wrapper classes?",
+      "question_type": "checkbox",
+      "options": [
+        "Integer",
+        "Double",
+        "Character",
+        "String"
+      ],
+      "correct_answers": [
+        "Integer",
+        "Double",
+        "Character"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Comparator is a functional interface.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Comparable method name:",
+      "question_type": "mcq",
+      "options": [
+        "compare()",
+        "compareTo()",
+        "sort()",
+        "order()"
+      ],
+      "correct_answer": "compareTo()",
+      "marks": 1
+    },
+    {
+      "question_text": "Comparator method name:",
+      "question_type": "mcq",
+      "options": [
+        "compare()",
+        "compareTo()",
+        "sort()",
+        "orderBy()"
+      ],
+      "correct_answer": "compare()",
+      "marks": 1
+    },
+    {
+      "question_text": "Which Map implementation maintains sorted keys?",
+      "question_type": "mcq",
+      "options": [
+        "HashMap",
+        "LinkedHashMap",
+        "TreeMap",
+        "Hashtable"
+      ],
+      "correct_answer": "TreeMap",
+      "marks": 1
+    },
+    {
+      "question_text": "HashMap allows duplicate keys.",
+      "question_type": "true_false",
+      "correct_answer": "False",
+      "marks": 1
+    },
+    {
+      "question_text": "If duplicate key inserted in HashMap:",
+      "question_type": "mcq",
+      "options": [
+        "Error",
+        "Ignored",
+        "Value replaced",
+        "Program stops"
+      ],
+      "correct_answer": "Value replaced",
+      "marks": 1
+    },
+    {
+      "question_text": "Which allow duplicates?",
+      "question_type": "checkbox",
+      "options": [
+        "ArrayList",
+        "HashSet",
+        "TreeSet",
+        "LinkedList"
+      ],
+      "correct_answers": [
+        "ArrayList",
+        "LinkedList"
+      ],
+      "marks": 2
+    }
+  ]
+}

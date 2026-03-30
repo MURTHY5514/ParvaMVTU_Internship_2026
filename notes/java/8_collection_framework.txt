@@ -106,3 +106,34 @@ Collections:
 
 LinkedList and Arrays:
 ======================
+
+
+comparable and comparator:
+==========================
+1. comparable:
+==============
+* if you need default or natural sorting order then we should go for comparable
+
+2. comparator:
+==============
+* if you need custom sorting order then we should go for comparator interface
+
+* A negative integer if o1 should come before o2.
+* Zero if o1 and o2 are considered equal for sorting purposes.
+* A positive integer if o1 should come after o2.
+
+fuctional interface:
+====================
+* interface contains only one abstarct method.
+ex: comparable
+
+
+Set:
+====
+* When you represent a group of individual objects as a single entity, where insertion order is not preserved, duplicate will not allow then we should go for set interface.
+
+
+Map:
+====
+* when you represent a group of individual objects asa single entity where in form of key value pair then we should go for map interface.
+* key should be unique.

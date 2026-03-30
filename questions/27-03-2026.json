@@ -1,0 +1,215 @@
+{
+    "questions": [
+        {
+            "question_text": "Collections framework is used to:",
+            "question_type": "mcq",
+            "options": [
+                "Store single value",
+                "Store group of objects",
+                "Create database",
+                "Execute threads"
+            ],
+            "correct_answer": "Store group of objects",
+            "marks": 1
+        },
+        {
+            "question_text": "Primitive data types cannot be stored directly in collections.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following are drawbacks of array?",
+            "question_type": "checkbox",
+            "options": [
+                "Fixed size",
+                "Same data type only",
+                "Dynamic resizing",
+                "Continuous memory required"
+            ],
+            "correct_answers": [
+                "Fixed size",
+                "Same data type only",
+                "Continuous memory required"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Collection is:",
+            "question_type": "mcq",
+            "options": [
+                "Class",
+                "Interface",
+                "Method",
+                "Package"
+            ],
+            "correct_answer": "Interface",
+            "marks": 1
+        },
+        {
+            "question_text": "List interface allows duplicate values.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following are features of List?",
+            "question_type": "checkbox",
+            "options": [
+                "Order preserved",
+                "Duplicates allowed",
+                "Index based access",
+                "No null values"
+            ],
+            "correct_answers": [
+                "Order preserved",
+                "Duplicates allowed",
+                "Index based access"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "ArrayList internally uses:",
+            "question_type": "mcq",
+            "options": [
+                "Linked List",
+                "Dynamic Array",
+                "Tree",
+                "Hash Table"
+            ],
+            "correct_answer": "Dynamic Array",
+            "marks": 1
+        },
+        {
+            "question_text": "ArrayList allows null values.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Generics are used for:",
+            "question_type": "mcq",
+            "options": [
+                "Memory allocation",
+                "Type safety",
+                "Thread creation",
+                "File handling"
+            ],
+            "correct_answer": "Type safety",
+            "marks": 1
+        },
+        {
+            "question_text": "Wrapper class for int is:",
+            "question_type": "mcq",
+            "options": [
+                "Int",
+                "Integer",
+                "Number",
+                "WrapperInt"
+            ],
+            "correct_answer": "Integer",
+            "marks": 1
+        },
+        {
+            "question_text": "Autoboxing converts primitive to wrapper.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Unboxing converts wrapper to primitive.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which method sorts a list?",
+            "question_type": "mcq",
+            "options": [
+                "Collections.sort()",
+                "Collections.order()",
+                "Collections.arrange()",
+                "Collections.group()"
+            ],
+            "correct_answer": "Collections.sort()",
+            "marks": 1
+        },
+        {
+            "question_text": "Which method finds minimum element?",
+            "question_type": "mcq",
+            "options": [
+                "Collections.low()",
+                "Collections.min()",
+                "Collections.small()",
+                "Collections.minimum()"
+            ],
+            "correct_answer": "Collections.min()",
+            "marks": 1
+        },
+        {
+            "question_text": "Iterator is used for forward traversal.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "ListIterator supports:",
+            "question_type": "mcq",
+            "options": [
+                "Forward only",
+                "Backward only",
+                "Both forward and backward",
+                "Random access"
+            ],
+            "correct_answer": "Both forward and backward",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following iteration methods are valid?",
+            "question_type": "checkbox",
+            "options": [
+                "for loop",
+                "for-each loop",
+                "Iterator",
+                "ListIterator"
+            ],
+            "correct_answers": [
+                "for loop",
+                "for-each loop",
+                "Iterator",
+                "ListIterator"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "binarySearch() requires list to be sorted.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "frequency() method is used to:",
+            "question_type": "mcq",
+            "options": [
+                "Sort elements",
+                "Count occurrences",
+                "Remove duplicates",
+                "Add elements"
+            ],
+            "correct_answer": "Count occurrences",
+            "marks": 1
+        },
+        {
+            "question_text": "shuffle() method:",
+            "question_type": "mcq",
+            "options": [
+                "Sorts list",
+                "Reverses list",
+                "Randomly rearranges list",
+                "Deletes list"
+            ],
+            "correct_answer": "Randomly rearranges list",
+            "marks": 1
+        }
+    ]
+}
