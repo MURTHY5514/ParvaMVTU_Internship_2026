@@ -1,0 +1,18 @@
+Functional Interface:
+=====================
+@FunctionalInterface
+interface EvenOrOdd{
+	boolean even_odd(int a);
+}
+
+
+@FunctionalInterface
+interface CustomStringLength{
+	int str_len(String str);
+}
+
+explore one :
+=============
+comsumer
+supplier
+Function

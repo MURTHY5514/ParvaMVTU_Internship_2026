@@ -35,8 +35,20 @@ finally:
 
 null pointer exception:
 =======================
-* when we perfom operations on mull.
+* when we perfom operations on null.
 * to over come this problem we should go for optional class (Java 8)
+
+order of catch block:
+=====================
+child to parent.
 
 throw and custom exception class:
 =================================
+
+throw:
+======
+* used to throw exception.
+
+how to create our own exception:
+================================
+* using extends exception class.

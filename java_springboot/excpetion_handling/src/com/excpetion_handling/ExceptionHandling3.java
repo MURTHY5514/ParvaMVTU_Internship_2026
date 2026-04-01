@@ -20,7 +20,6 @@ public class ExceptionHandling3 {
 			System.out.println(e);
 		}
 		
-		
 		try {
 			int arr[] = {1,2,3};
 			System.out.println("first: "+arr[1]);
