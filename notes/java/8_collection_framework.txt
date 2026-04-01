@@ -125,7 +125,7 @@ comparable and comparator:
 fuctional interface:
 ====================
 * interface contains only one abstarct method.
-ex: comparable
+ex: comparable,comparator
 
 
 Set:

@@ -1,0 +1,42 @@
+Exception handling:
+===================
+* there is a unwanted or un-expected event occur in program.
+* when ever there is aexception in program the normalflow will stops.
+
+2 types:
+========
+1. checked exception(compile time):
+===================================
+* two ways to handle
+	1. try catch
+	2. throws
+	
+ex: FileNotFoundException
+
+2. unchecked expetion(runtime exception):
+=========================================
+* one way to handle
+	1. try catch
+
+error:
+======
+* it is a problem where the programmer can't handle  it.
+ex: stackoverflowerror.
+
+
+finally:
+========
+* it will execute even if the exception occur or not.
+* the closing resource like file closing,database closing write inside the finally block.
+* in which senarios the finally block will not execute	
+	1. system.exit()
+	2. when the exception occur inside the finally block
+
+
+null pointer exception:
+=======================
+* when we perfom operations on mull.
+* to over come this problem we should go for optional class (Java 8)
+
+throw and custom exception class:
+=================================

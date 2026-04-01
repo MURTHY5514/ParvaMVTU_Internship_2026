@@ -1,0 +1,112 @@
+{
+  "questions": [
+    {
+      "question_text": "Exception is:",
+      "question_type": "mcq",
+      "options": [
+        "Normal flow of program",
+        "Unexpected event in program",
+        "Loop condition",
+        "Compilation process"
+      ],
+      "correct_answer": "Unexpected event in program",
+      "marks": 1
+    },
+    {
+      "question_text": "Checked exceptions are handled at compile time.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Ways to handle checked exception:",
+      "question_type": "checkbox",
+      "options": [
+        "try-catch",
+        "throws",
+        "finally",
+        "throw new"
+      ],
+      "correct_answers": [
+        "try-catch",
+        "throws"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Which is checked exception?",
+      "question_type": "mcq",
+      "options": [
+        "NullPointerException",
+        "ArithmeticException",
+        "FileNotFoundException",
+        "ArrayIndexOutOfBoundsException"
+      ],
+      "correct_answer": "FileNotFoundException",
+      "marks": 1
+    },
+    {
+      "question_text": "Unchecked exceptions occur at runtime.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Unchecked exceptions are handled using:",
+      "question_type": "mcq",
+      "options": [
+        "throws",
+        "try-catch",
+        "finally only",
+        "import"
+      ],
+      "correct_answer": "try-catch",
+      "marks": 1
+    },
+    {
+      "question_text": "Finally block will execute:",
+      "question_type": "mcq",
+      "options": [
+        "Only when exception occurs",
+        "Only when exception not occurs",
+        "Always",
+        "Never"
+      ],
+      "correct_answer": "Always",
+      "marks": 1
+    },
+    {
+      "question_text": "Finally block will NOT execute in:",
+      "question_type": "checkbox",
+      "options": [
+        "System.exit()",
+        "Exception inside finally block",
+        "Try block only",
+        "Catch block only"
+      ],
+      "correct_answers": [
+        "System.exit()",
+        "Exception inside finally block"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "NullPointerException occurs when:",
+      "question_type": "mcq",
+      "options": [
+        "Divide by zero",
+        "Accessing null reference",
+        "File not found",
+        "Array full"
+      ],
+      "correct_answer": "Accessing null reference",
+      "marks": 1
+    },
+    {
+      "question_text": "Optional class is used to avoid NullPointerException.",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    }
+  ]
+}
