@@ -1,0 +1,208 @@
+{
+    "questions": [
+        {
+            "question_text": "Exception handling is used to:",
+            "question_type": "mcq",
+            "options": [
+                "Stop program execution",
+                "Handle runtime errors",
+                "Create loops",
+                "Compile code"
+            ],
+            "correct_answer": "Handle runtime errors",
+            "marks": 1
+        },
+        {
+            "question_text": "try block must be followed by catch or finally.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Keywords used in exception handling:",
+            "question_type": "checkbox",
+            "options": [
+                "try",
+                "catch",
+                "finally",
+                "lambda"
+            ],
+            "correct_answers": [
+                "try",
+                "catch",
+                "finally"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "throw keyword is used to:",
+            "question_type": "mcq",
+            "options": [
+                "Handle exception",
+                "Declare exception",
+                "Create exception manually",
+                "Ignore exception"
+            ],
+            "correct_answer": "Create exception manually",
+            "marks": 1
+        },
+        {
+            "question_text": "throws keyword is used in:",
+            "question_type": "mcq",
+            "options": [
+                "method declaration",
+                "try block",
+                "catch block",
+                "finally block"
+            ],
+            "correct_answer": "method declaration",
+            "marks": 1
+        },
+        {
+            "question_text": "Custom exception is created using:",
+            "question_type": "mcq",
+            "options": [
+                "implements Exception",
+                "extends Exception",
+                "extends Error",
+                "extends Runtime"
+            ],
+            "correct_answer": "extends Exception",
+            "marks": 1
+        },
+        {
+            "question_text": "User defined exception is also called:",
+            "question_type": "mcq",
+            "options": [
+                "Runtime exception",
+                "Checked exception",
+                "Custom exception",
+                "Compiler exception"
+            ],
+            "correct_answer": "Custom exception",
+            "marks": 1
+        },
+        {
+            "question_text": "Multiple catch blocks are allowed in Java.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Lambda expression is introduced in:",
+            "question_type": "mcq",
+            "options": [
+                "Java 6",
+                "Java 7",
+                "Java 8",
+                "Java 11"
+            ],
+            "correct_answer": "Java 8",
+            "marks": 1
+        },
+        {
+            "question_text": "Lambda expression is used to implement:",
+            "question_type": "mcq",
+            "options": [
+                "Class",
+                "Interface",
+                "Functional interface",
+                "Abstract class"
+            ],
+            "correct_answer": "Functional interface",
+            "marks": 1
+        },
+        {
+            "question_text": "Functional interface contains:",
+            "question_type": "mcq",
+            "options": [
+                "Multiple abstract methods",
+                "Single abstract method",
+                "No methods",
+                "Only static methods"
+            ],
+            "correct_answer": "Single abstract method",
+            "marks": 1
+        },
+        {
+            "question_text": "Predicate interface belongs to package:",
+            "question_type": "mcq",
+            "options": [
+                "java.lang",
+                "java.util.function",
+                "java.io",
+                "java.stream"
+            ],
+            "correct_answer": "java.util.function",
+            "marks": 1
+        },
+        {
+            "question_text": "Predicate functional interface method is:",
+            "question_type": "mcq",
+            "options": [
+                "apply()",
+                "test()",
+                "accept()",
+                "run()"
+            ],
+            "correct_answer": "test()",
+            "marks": 1
+        },
+        {
+            "question_text": "Predicate returns:",
+            "question_type": "mcq",
+            "options": [
+                "int",
+                "String",
+                "boolean",
+                "void"
+            ],
+            "correct_answer": "boolean",
+            "marks": 1
+        },
+        {
+            "question_text": "Lambda expression syntax:",
+            "question_type": "mcq",
+            "options": [
+                "() -> {}",
+                "() => {}",
+                "() :: {}",
+                "() --> {}"
+            ],
+            "correct_answer": "() -> {}",
+            "marks": 1
+        },
+        {
+            "question_text": "Lambda expression reduces boilerplate code.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which are functional interfaces?",
+            "question_type": "checkbox",
+            "options": [
+                "Predicate",
+                "Comparator",
+                "ArrayList"
+            ],
+            "correct_answers": [
+                "Predicate",
+                "Comparator"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Predicate<Integer> p = x -> x > 10; This returns:",
+            "question_type": "mcq",
+            "options": [
+                "Integer",
+                "boolean",
+                "String",
+                "void"
+            ],
+            "correct_answer": "boolean",
+            "marks": 1
+        }
+    ]
+}

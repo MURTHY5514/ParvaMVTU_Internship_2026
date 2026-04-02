@@ -16,3 +16,15 @@ explore one :
 comsumer
 supplier
 Function
+
+
+/*
+ * 1. Sort the list of numbers in Descending order
+ * 2. Remove the Duplicate elements from list
+ * 3. FInd the Maximum element in List
+ * 4. Find the Second Max Element List
+ * 5. calculate the sum of elements in the list - reduce
+ * 6. concatenate all list of strings into single string - reduce
+ * 7. Check if any numbers in the list is greater than 100 - anyMatch
+ * 8. Check all the numbers in the list is greater than 100 - allMatch
+ */
