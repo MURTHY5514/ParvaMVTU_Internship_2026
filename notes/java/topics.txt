@@ -1,0 +1,34 @@
+Bhavani M → Java Basics
+Kalyani N → Control Statements
+KAVYA K M → OOP Concepts 1
+Tejas S R → OOP Concepts 2
+KONA KUSHAL KUMAR REDDY → Strings
+Lokesh MV → Arrays
+Sagar Shet K N → Exception Handling
+Mahendra B  → Collections Framework
+Spoorthi H A → Java 8 Features
+SWARAN K N → Multithreading
+Shreyarani → File Handling
+
+
+
+core java 
+advance java(servlets, jsp , jdbc)
+
+spring and spring boot
+
+Spring boot:
+============
+2 ways:
+=======
+1. spring initializer
+2. sts --> ide build on top of eclipse.
+
+
+models --> tables.
+view --> front end page
+controller --> backend code(business logic).
+
+
+HTTP --> Hyper text transfer protocol(rules and regulations).
+HTTPS --> Hyper text transfer protocol in a scured way.

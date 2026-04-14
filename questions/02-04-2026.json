@@ -1,0 +1,220 @@
+{
+    "questions": [
+        {
+            "question_text": "Lambda expression is also called:",
+            "question_type": "mcq",
+            "options": [
+                "Named function",
+                "Anonymous function",
+                "Constructor",
+                "Class"
+            ],
+            "correct_answer": "Anonymous function",
+            "marks": 1
+        },
+        {
+            "question_text": "Functional interface contains only one abstract method.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Supplier functional interface method is:",
+            "question_type": "mcq",
+            "options": [
+                "apply()",
+                "get()",
+                "accept()",
+                "test()"
+            ],
+            "correct_answer": "get()",
+            "marks": 1
+        },
+        {
+            "question_text": "Consumer functional interface method is:",
+            "question_type": "mcq",
+            "options": [
+                "accept()",
+                "get()",
+                "apply()",
+                "test()"
+            ],
+            "correct_answer": "accept()",
+            "marks": 1
+        },
+        {
+            "question_text": "Function interface method is:",
+            "question_type": "mcq",
+            "options": [
+                "test()",
+                "apply()",
+                "get()",
+                "accept()"
+            ],
+            "correct_answer": "apply()",
+            "marks": 1
+        },
+        {
+            "question_text": "Predicate functional interface method is:",
+            "question_type": "mcq",
+            "options": [
+                "apply()",
+                "test()",
+                "accept()",
+                "get()"
+            ],
+            "correct_answer": "test()",
+            "marks": 1
+        },
+        {
+            "question_text": "Method reference operator is:",
+            "question_type": "mcq",
+            "options": [
+                "::",
+                "->",
+                "=>",
+                ":::"
+            ],
+            "correct_answer": "::",
+            "marks": 1
+        },
+        {
+            "question_text": "Constructor reference syntax:",
+            "question_type": "mcq",
+            "options": [
+                "ClassName::new",
+                "new::ClassName",
+                "ClassName()->new",
+                "ClassName->new"
+            ],
+            "correct_answer": "ClassName::new",
+            "marks": 1
+        },
+        {
+            "question_text": "Stream filter() is:",
+            "question_type": "mcq",
+            "options": [
+                "Terminal operation",
+                "Intermediate operation",
+                "Final operation",
+                "Optional operation"
+            ],
+            "correct_answer": "Intermediate operation",
+            "marks": 1
+        },
+        {
+            "question_text": "count() is terminal operation in stream.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "map() is used for:",
+            "question_type": "mcq",
+            "options": [
+                "Filtering",
+                "Transformation",
+                "Sorting",
+                "Deleting"
+            ],
+            "correct_answer": "Transformation",
+            "marks": 1
+        },
+        {
+            "question_text": "Streams can be reused after terminal operation.",
+            "question_type": "true_false",
+            "correct_answer": "False",
+            "marks": 1
+        },
+        {
+            "question_text": "Which are terminal operations?",
+            "question_type": "checkbox",
+            "options": [
+                "count()",
+                "collect()",
+                "filter()",
+                "forEach()"
+            ],
+            "correct_answers": [
+                "count()",
+                "collect()",
+                "forEach()"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Which are intermediate operations?",
+            "question_type": "checkbox",
+            "options": [
+                "filter()",
+                "map()",
+                "count()"
+            ],
+            "correct_answers": [
+                "filter()",
+                "map()"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Arrays.sort(names, String::compareToIgnoreCase) is:",
+            "question_type": "mcq",
+            "options": [
+                "Constructor reference",
+                "Static reference",
+                "Instance method reference",
+                "Lambda expression"
+            ],
+            "correct_answer": "Instance method reference",
+            "marks": 1
+        },
+        {
+            "question_text": "Supplier takes input parameter.",
+            "question_type": "true_false",
+            "correct_answer": "False",
+            "marks": 1
+        },
+        {
+            "question_text": "Consumer returns value.",
+            "question_type": "true_false",
+            "correct_answer": "False",
+            "marks": 1
+        },
+        {
+            "question_text": "Stream source example:",
+            "question_type": "mcq",
+            "options": [
+                "list.stream()",
+                "list.map()",
+                "list.filter()",
+                "list.collect()"
+            ],
+            "correct_answer": "list.stream()",
+            "marks": 1
+        },
+        {
+            "question_text": "Method reference replaces:",
+            "question_type": "mcq",
+            "options": [
+                "Class",
+                "Lambda expression",
+                "Constructor",
+                "Interface"
+            ],
+            "correct_answer": "Lambda expression",
+            "marks": 1
+        },
+        {
+            "question_text": "Stream API introduced in:",
+            "question_type": "mcq",
+            "options": [
+                "Java 6",
+                "Java 7",
+                "Java 8",
+                "Java 11"
+            ],
+            "correct_answer": "Java 8",
+            "marks": 1
+        }
+    ]
+}

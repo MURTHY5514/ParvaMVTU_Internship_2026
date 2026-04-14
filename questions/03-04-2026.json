@@ -1,0 +1,99 @@
+{
+    "questions": [
+        {
+            "question_text": "Spring Boot is mainly used to create:",
+            "question_type": "mcq",
+            "options": [
+                "Web applications",
+                "Mobile applications",
+                "All of the above"
+            ],
+            "correct_answer": "Web applications",
+            "marks": 1
+        },
+        {
+            "question_text": "Spring Boot reduces configuration compared to Spring Framework.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which website is used to create Spring Boot project?",
+            "question_type": "mcq",
+            "options": [
+                "spring initializer",
+                "start build",
+                "springboot build",
+                "initializer build"
+            ],
+            "correct_answer": "spring initializer",
+            "marks": 1
+        },
+        {
+            "question_text": "Which dependency is required to create web application in Spring Boot?",
+            "question_type": "mcq",
+            "options": [
+                "Spring Data JPA",
+                "Spring Web",
+                "Spring Security",
+                "Spring Test"
+            ],
+            "correct_answer": "Spring Web",
+            "marks": 1
+        },
+        {
+            "question_text": "Spring Boot applications contain embedded server.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which embedded server is used by Spring Boot by default?",
+            "question_type": "mcq",
+            "options": [
+                "Tomcat",
+                "Jetty",
+                "Undertow",
+                "Apache HTTP Server"
+            ],
+            "correct_answer": "Tomcat",
+            "marks": 1
+        },
+        {
+            "question_text": "Which annotation is used to create controller in Spring Boot?",
+            "question_type": "mcq",
+            "options": [
+                "@Service",
+                "@Controller",
+                "@Repository",
+                "@Autowired"
+            ],
+            "correct_answer": "@Controller",
+            "marks": 1
+        },
+        {
+            "question_text": "Spring Boot project can be created using Spring Initializr.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which method is used to map home page URL?",
+            "question_type": "mcq",
+            "options": [
+                "@PostMapping",
+                "@PutMapping",
+                "@GetMapping",
+                "@DeleteMapping"
+            ],
+            "correct_answer": "@GetMapping",
+            "marks": 1
+        },
+        {
+            "question_text": "Templates folder is used to store HTML files in Spring Boot.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        }
+    ]
+}

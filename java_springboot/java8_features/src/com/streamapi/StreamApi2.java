@@ -3,6 +3,7 @@ package com.streamapi;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamApi2 {
 	public static void main(String[] args) {
@@ -11,7 +12,12 @@ public class StreamApi2 {
 		System.out.println(collect);
 		
 		List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
-		List<Integer> res = names.stream().map(ele->ele*ele).collect(Collectors.toList());
-		System.out.println(collect);
+		List<Integer> res = numbers.stream().map(ele->ele*ele).collect(Collectors.toList());
+		System.out.println(res);
+		
+		Stream<Integer> stream = numbers.stream();
+		Stream<Integer> map = stream.map(ele->ele*ele);
+		List<Integer> collect2 = map.collect(Collectors.toList());
+		System.out.println(collect2);
 	}
 }
