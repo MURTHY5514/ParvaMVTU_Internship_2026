@@ -1,0 +1,148 @@
+{
+    "questions": [
+        {
+            "question_text": "What is the starting point of a Spring Boot application?",
+            "question_type": "mcq",
+            "options": [
+                "@Controller class",
+                "main() method with @SpringBootApplication",
+                "@Service class",
+                "application.properties"
+            ],
+            "correct_answer": "main() method with @SpringBootApplication",
+            "marks": 1
+        },
+        {
+            "question_text": "@SpringBootApplication is a combination of multiple annotations.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which annotation is used to create REST APIs in Spring Boot?",
+            "question_type": "mcq",
+            "options": [
+                "@Controller",
+                "@RestController",
+                "@Service",
+                "@Component"
+            ],
+            "correct_answer": "@RestController",
+            "marks": 1
+        },
+        {
+            "question_text": "@RestController returns JSON response by default.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which tool is used to generate a Spring Boot project quickly?",
+            "question_type": "mcq",
+            "options": [
+                "Spring Initializr",
+                "Maven Central",
+                "Gradle Tool",
+                "Spring CLI only"
+            ],
+            "correct_answer": "Spring Initializr",
+            "marks": 1
+        },
+        {
+            "question_text": "What is the use of Spring Boot DevTools?",
+            "question_type": "mcq",
+            "options": [
+                "Security management",
+                "Automatic restart and live reload",
+                "Database connection",
+                "Testing"
+            ],
+            "correct_answer": "Automatic restart and live reload",
+            "marks": 1
+        },
+        {
+            "question_text": "Thymeleaf is used as a template engine in Spring Boot.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Where should HTML files be placed when using Thymeleaf?",
+            "question_type": "mcq",
+            "options": [
+                "static folder",
+                "templates folder",
+                "resources root",
+                "config folder"
+            ],
+            "correct_answer": "templates folder",
+            "marks": 1
+        },
+        {
+            "question_text": "Which dependency is required for Spring Security?",
+            "question_type": "mcq",
+            "options": [
+                "Spring Web",
+                "Spring Data JPA",
+                "Spring Security",
+                "Spring DevTools"
+            ],
+            "correct_answer": "Spring Security",
+            "marks": 1
+        },
+        {
+            "question_text": "Spring Security provides default login page.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "What is the default username for Spring Security login?",
+            "question_type": "mcq",
+            "options": [
+                "admin",
+                "user",
+                "root",
+                "spring"
+            ],
+            "correct_answer": "user",
+            "marks": 1
+        },
+        {
+            "question_text": "Default password for Spring Security is generated in console.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which URL is used for default logout in Spring Security?",
+            "question_type": "mcq",
+            "options": [
+                "/login",
+                "/logout",
+                "/exit",
+                "/signout"
+            ],
+            "correct_answer": "/logout",
+            "marks": 1
+        },
+        {
+            "question_text": "Spring Boot automatically configures embedded server.",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which annotation is used for dependency injection?",
+            "question_type": "mcq",
+            "options": [
+                "@Autowired",
+                "@Controller",
+                "@Bean",
+                "@ComponentScan"
+            ],
+            "correct_answer": "@Autowired",
+            "marks": 1
+        }
+    ]
+}

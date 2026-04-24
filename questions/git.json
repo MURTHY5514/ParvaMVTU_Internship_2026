@@ -1,0 +1,64 @@
+{
+    "questions": [
+        {
+            "question_text": "What will 'git status' show after you modify a file but before running 'git add'?",
+            "question_type": "mcq",
+            "options": [
+                "File is committed",
+                "File is in staging area",
+                "File is modified but not staged",
+                "File is deleted"
+            ],
+            "correct_answer": "File is modified but not staged",
+            "marks": 1
+        },
+        {
+            "question_text": "Which command is used to download a repository from a remote URL for the first time?",
+            "question_type": "mcq",
+            "options": [
+                "git pull",
+                "git clone",
+                "git fetch",
+                "git init"
+            ],
+            "correct_answer": "git clone",
+            "marks": 1
+        },
+        {
+            "question_text": "After running 'git add file.txt', where is the file located?",
+            "question_type": "mcq",
+            "options": [
+                "Remote repository",
+                "Working directory",
+                "Staging area",
+                "Deleted files"
+            ],
+            "correct_answer": "Staging area",
+            "marks": 1
+        },
+        {
+            "question_text": "Which command shows the commit history of a repository?",
+            "question_type": "mcq",
+            "options": [
+                "git status",
+                "git log",
+                "git history",
+                "git commit"
+            ],
+            "correct_answer": "git log",
+            "marks": 1
+        },
+        {
+            "question_text": "What does 'git pull' do?",
+            "question_type": "mcq",
+            "options": [
+                "Uploads changes to remote",
+                "Deletes the repository",
+                "Downloads and merges changes from remote",
+                "Stages all files"
+            ],
+            "correct_answer": "Downloads and merges changes from remote",
+            "marks": 1
+        }
+    ]
+}

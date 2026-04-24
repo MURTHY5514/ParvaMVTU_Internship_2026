@@ -1,0 +1,208 @@
+{
+    "questions": [
+        {
+            "question_text": "In advanced prompting, self-consistency decoding improves reasoning by:",
+            "question_type": "mcq",
+            "options": [
+                "Using a single deterministic output",
+                "Sampling multiple reasoning paths and selecting the most consistent answer",
+                "Reducing token usage",
+                "Increasing temperature to maximum"
+            ],
+            "correct_answer": "Sampling multiple reasoning paths and selecting the most consistent answer",
+            "marks": 1
+        },
+        {
+            "question_text": "When a system prompt conflicts with a user prompt, what is the correct behavior in a well-designed prompting system?",
+            "question_type": "mcq",
+            "options": [
+                "Always follow the user prompt",
+                "Always ignore both prompts",
+                "Prioritize system-level instructions over user input",
+                "Randomly choose between them"
+            ],
+            "correct_answer": "Prioritize system-level instructions over user input",
+            "marks": 1
+        },
+        {
+            "question_text": "What is the MAIN purpose of combining prompting with RAG architecture?",
+            "question_type": "mcq",
+            "options": [
+                "To reduce model size",
+                "To inject external, up-to-date knowledge into the prompt context",
+                "To eliminate the need for prompts",
+                "To increase hallucination"
+            ],
+            "correct_answer": "To inject external, up-to-date knowledge into the prompt context",
+            "marks": 1
+        },
+        {
+            "question_text": "What is a key challenge when applying prompt compression techniques?",
+            "question_type": "mcq",
+            "options": [
+                "Increased latency",
+                "Loss of important contextual information",
+                "Overfitting the model",
+                "Reduced API compatibility"
+            ],
+            "correct_answer": "Loss of important contextual information",
+            "marks": 1
+        },
+        {
+            "question_text": "Why is tool/function calling considered an advanced prompting technique?",
+            "question_type": "mcq",
+            "options": [
+                "It replaces prompts entirely",
+                "It allows the model to execute external functions or APIs based on structured outputs",
+                "It increases randomness",
+                "It prevents user input"
+            ],
+            "correct_answer": "It allows the model to execute external functions or APIs based on structured outputs",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following best describes supervised learning?",
+            "question_type": "mcq",
+            "options": [
+                "Learning without labeled data",
+                "Learning using labeled input-output pairs",
+                "Learning by interacting with the environment",
+                "Learning using only clustering techniques"
+            ],
+            "correct_answer": "Learning using labeled input-output pairs",
+            "marks": 1
+        },
+        {
+            "question_text": "Which algorithm is commonly used for classification problems?",
+            "question_type": "mcq",
+            "options": [
+                "Linear Regression",
+                "K-Means Clustering",
+                "Logistic Regression",
+                "Principal Component Analysis"
+            ],
+            "correct_answer": "Logistic Regression",
+            "marks": 1
+        },
+        {
+            "question_text": "What is the main purpose of a training dataset in machine learning?",
+            "question_type": "mcq",
+            "options": [
+                "To test model performance",
+                "To train the model and learn patterns",
+                "To validate hyperparameters",
+                "To visualize data"
+            ],
+            "correct_answer": "To train the model and learn patterns",
+            "marks": 1
+        },
+        {
+            "question_text": "Which of the following is an example of unsupervised learning?",
+            "question_type": "mcq",
+            "options": [
+                "Decision Tree",
+                "K-Nearest Neighbors",
+                "K-Means Clustering",
+                "Random Forest"
+            ],
+            "correct_answer": "K-Means Clustering",
+            "marks": 1
+        },
+        {
+            "question_text": "What does overfitting mean in machine learning?",
+            "question_type": "mcq",
+            "options": [
+                "Model performs well on new data but poorly on training data",
+                "Model performs well on training data but poorly on new data",
+                "Model performs equally well on all datasets",
+                "Model ignores the training data"
+            ],
+            "correct_answer": "Model performs well on training data but poorly on new data",
+            "marks": 1
+        },
+        {
+            "question_text": "What will be the output of the following Python code?\n\nfrom sklearn.linear_model import LinearRegression\nimport numpy as np\n\nX = np.array([[1], [2], [3]])\ny = np.array([2, 4, 6])\n\nmodel = LinearRegression()\nmodel.fit(X, y)\n\nprint(model.predict([[4]]))",
+            "question_type": "mcq",
+            "options": [
+                "[6]",
+                "[8]",
+                "[4]",
+                "[2]"
+            ],
+            "correct_answer": "[8]",
+            "marks": 2
+        },
+        {
+            "question_text": "What does the following code do?\n\nfrom sklearn.cluster import KMeans\nimport numpy as np\n\nX = np.array([[1, 2], [1, 4], [10, 2], [10, 4]])\n\nkmeans = KMeans(n_clusters=2, random_state=0)\nkmeans.fit(X)\n\nprint(kmeans.labels_)",
+            "question_type": "mcq",
+            "options": [
+                "Predicts continuous values",
+                "Assigns cluster labels to data points",
+                "Performs regression",
+                "Reduces dimensionality"
+            ],
+            "correct_answer": "Assigns cluster labels to data points",
+            "marks": 2
+        },
+        {
+            "question_text": "What is the output of the function using a mutable default argument?\n\ndef update_list(lst=[]):\n    lst.append(len(lst))\n    return lst\nprint(update_list())\nprint(update_list())\nprint(update_list())",
+            "question_type": "mcq",
+            "options": [
+                "[0] [0] [0]",
+                "[0] [1] [2]",
+                "[0] [0, 1] [0, 1, 2]",
+                "Error"
+            ],
+            "correct_answer": "[0] [0, 1] [0, 1, 2]",
+            "marks": 2
+        },
+        {
+            "question_text": "What is the output of the following code involving lambda functions?\nfunctions = []\nfor i in range(5):\n  functions.append(lambda: i)\nprint([f() for f in functions])",
+            "question_type": "mcq",
+            "options": [
+                "[0, 1, 2, 3, 4]",
+                "[4, 4, 4, 4, 4]",
+                "[5, 5, 5, 5, 5]",
+                "Error"
+            ],
+            "correct_answer": "[4, 4, 4, 4, 4]",
+            "marks": 2
+        },
+        {
+            "question_text": "What will be the output of shallow copy vs deep copy?\nimport copy\na = [[1, 2], [3, 4]]\nb = copy.copy(a)\nc = copy.deepcopy(a)\na[0][0] = 99\nprint(b)\nprint(c)",
+            "question_type": "mcq",
+            "options": [
+                "b = [[1, 2], [3, 4]], c = [[1, 2], [3, 4]]",
+                "b = [[99, 2], [3, 4]], c = [[99, 2], [3, 4]]",
+                "b = [[99, 2], [3, 4]], c = [[1, 2], [3, 4]]",
+                "Error"
+            ],
+            "correct_answer": "b = [[99, 2], [3, 4]], c = [[1, 2], [3, 4]]",
+            "marks": 2
+        },
+        {
+            "question_text": "What is the output of the list comprehension?\nresult = [i if i % 2 == 0 else i*2 for i in range(5)]\nprint(result)",
+            "question_type": "mcq",
+            "options": [
+                "[0, 2, 2, 6, 4]",
+                "[0, 1, 2, 3, 4]",
+                "[0, 2, 4, 6, 8]",
+                "[1, 2, 3, 4, 5]"
+            ],
+            "correct_answer": "[0, 2, 2, 6, 4]",
+            "marks": 1
+        },
+        {
+            "question_text": "What is the output of the try-except-finally block?\ntry:\n    print(\"A\")\n    x = 1 / 0\n    print(\"B\")\nexcept ZeroDivisionError:\n    print(\"C\")\nfinally:\n    print(\"D\")",
+            "question_type": "mcq",
+            "options": [
+                "A B C D",
+                "A C D",
+                "A D",
+                "Error"
+            ],
+            "correct_answer": "A C D",
+            "marks": 1
+        }
+    ]
+}

@@ -18,3 +18,15 @@ Spring Security:
 ================
 1. /login --> login page.
 2. /logout --> logout page.
+
+
+Spring Data JPA:
+================
+ORM --> object relational mapping
+* it is used to communicate database using java ojects
+
+
+Validation:
+===========
+* to validate form input fields.
+
