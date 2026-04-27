@@ -1,0 +1,116 @@
+{
+    "questions": [
+        {
+            "question_text": "What is Spring Boot mainly used for?",
+            "question_type": "mcq",
+            "options": [
+                "Game Development",
+                "Web Application Development",
+                "Photo Editing",
+                "Operating System Development"
+            ],
+            "correct_answer": "Web Application Development",
+            "marks": 1
+        },
+        {
+            "question_text": "Select all CRUD operations used in Student Management System",
+            "question_type": "checkbox",
+            "options": [
+                "Create",
+                "Read",
+                "Update",
+                "Delete",
+                "Compile"
+            ],
+            "correct_answers": [
+                "Create",
+                "Read",
+                "Update",
+                "Delete"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Spring Boot uses Thymeleaf as a template engine for frontend pages",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Arrange the layers of Spring Boot application in correct order",
+            "question_type": "rearrange",
+            "items": [
+                "Controller",
+                "Service",
+                "Repository",
+                "Database"
+            ],
+            "marks": 3
+        },
+        {
+            "question_text": "Which annotation is used to mark a Spring Boot controller?",
+            "question_type": "mcq",
+            "options": [
+                "@Entity",
+                "@Controller",
+                "@Service",
+                "@Autowired"
+            ],
+            "correct_answer": "@Controller",
+            "marks": 1
+        },
+        {
+            "question_text": "Which fields are commonly present in Student CRUD application?",
+            "question_type": "checkbox",
+            "options": [
+                "Student Name",
+                "Email",
+                "Course",
+                "Roll Number",
+                "Weather"
+            ],
+            "correct_answers": [
+                "Student Name",
+                "Email",
+                "Course",
+                "Roll Number"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Which operation is used to modify existing student details?",
+            "question_type": "mcq",
+            "options": [
+                "Create",
+                "Delete",
+                "Update",
+                "Read"
+            ],
+            "correct_answer": "Update",
+            "marks": 1
+        },
+        {
+            "question_text": "JPA Repository is used to interact with the database",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Arrange the steps for adding a new student in correct sequence",
+            "question_type": "rearrange",
+            "items": [
+                "Open Add Student Form",
+                "Enter Student Details",
+                "Click Save",
+                "Store Data in Database"
+            ],
+            "marks": 3
+        },
+        {
+            "question_text": "Explain how Student CRUD works in Spring Boot with Thymeleaf",
+            "question_type": "long_answer",
+            "model_answer": "Student CRUD application in Spring Boot allows users to Create, Read, Update and Delete student records using Controller, Service, Repository layers with Thymeleaf for frontend and database for storing records.",
+            "marks": 5
+        }
+    ]
+}

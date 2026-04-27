@@ -29,4 +29,3 @@ ORM --> object relational mapping
 Validation:
 ===========
 * to validate form input fields.
-
