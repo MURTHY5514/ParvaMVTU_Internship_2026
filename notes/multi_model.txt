@@ -1,0 +1,39 @@
+relation ship:
+==============
+1. one to one
+2. one to many or many to  one
+3. many to many
+
+
+Employee
+
+Project
+
+Address
+
+Department
+
+1. unidirectional
+2. Bidirectional
+
+employee ---- one to one ----> address
+employee --- many  to one ---> departments
+
+employee --- many to many  ---> project
+			many to one  --->
+	<-------one to many
+
+Annotations:
+============
+@OneToOne  --> it will create a column in same table with "_id"
+@OneToMany -->  it will create a new table (name = table1_table2)
+@ManyToOne --> created a column in same table wiht "_id"
+@ManyToMany --> it will create a new table (name = table1_table2)
+
+
+
+Assignment(28-04-26):
+=====================
+Studnet -- one to one -- address
+Student -- many to one -- class
+Student -- many to many -- subjects

@@ -17,6 +17,6 @@ public class Address {
 	private String state;
 	private String country;
 	private Integer zipCode;
-	@OneToOne
+	@OneToOne(mappedBy = "address")
 	private Employee employee;
 }

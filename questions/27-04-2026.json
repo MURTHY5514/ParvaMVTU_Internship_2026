@@ -1,0 +1,146 @@
+{
+    "questions": [
+        {
+            "question_text": "What is Thymeleaf Template Inheritance in Spring Boot?",
+            "question_type": "mcq",
+            "options": [
+                "Database Normalization",
+                "Reusing common layouts across pages",
+                "API Authentication",
+                "File Uploading"
+            ],
+            "correct_answer": "Reusing common layouts across pages",
+            "marks": 1
+        },
+        {
+            "question_text": "Select components commonly reused in template inheritance",
+            "question_type": "checkbox",
+            "options": [
+                "Header",
+                "Footer",
+                "Navbar",
+                "Sidebar",
+                "Database Table"
+            ],
+            "correct_answers": [
+                "Header",
+                "Footer",
+                "Navbar",
+                "Sidebar"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Thymeleaf fragments are used for template inheritance",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Arrange template inheritance flow in correct order",
+            "question_type": "rearrange",
+            "items": [
+                "Create Common Layout",
+                "Define Fragment",
+                "Reuse Fragment in Page",
+                "Render Final Page"
+            ],
+            "marks": 3
+        },
+        {
+            "question_text": "Which Thymeleaf attribute is used to include fragments?",
+            "question_type": "mcq",
+            "options": [
+                "th:replace",
+                "th:text",
+                "th:if",
+                "th:value"
+            ],
+            "correct_answer": "th:replace",
+            "marks": 1
+        },
+        {
+            "question_text": "Select common benefits of template inheritance",
+            "question_type": "checkbox",
+            "options": [
+                "Code Reusability",
+                "Maintainability",
+                "Consistent UI",
+                "Reduced Duplication",
+                "Increase Database Size"
+            ],
+            "correct_answers": [
+                "Code Reusability",
+                "Maintainability",
+                "Consistent UI",
+                "Reduced Duplication"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Which annotation marks a One-to-One relationship in Spring Boot?",
+            "question_type": "mcq",
+            "options": [
+                "@OneToOne",
+                "@ManyToOne",
+                "@Column",
+                "@JoinColumnOnly"
+            ],
+            "correct_answer": "@OneToOne",
+            "marks": 1
+        },
+        {
+            "question_text": "One-to-One mapping means one entity is linked to only one other entity",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Arrange One-to-One mapping implementation sequence",
+            "question_type": "rearrange",
+            "items": [
+                "Create Entities",
+                "Add @OneToOne Annotation",
+                "Run the project"
+            ],
+            "marks": 3
+        },
+        {
+            "question_text": "Select examples of One-to-One relationships",
+            "question_type": "checkbox",
+            "options": [
+                "Person and Passport",
+                "Student and ID Card",
+                "User and Profile",
+                "Order and Invoice",
+                "Student and Many Courses"
+            ],
+            "correct_answers": [
+                "Person and Passport",
+                "Student and ID Card",
+                "User and Profile",
+                "Order and Invoice"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Which layer usually handles business logic for tables?",
+            "question_type": "mcq",
+            "options": [
+                "Controller",
+                "Service",
+                "HTML",
+                "CSS",
+                "Model"
+            ],
+            "correct_answer": "Model",
+            "marks": 1
+        },
+        {
+            "question_text": "JPA helps manage entity relationships automatically",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        }
+    ]
+}
