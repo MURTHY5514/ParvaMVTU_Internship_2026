@@ -1,0 +1,189 @@
+{
+  "questions": [
+    {
+      "question_text": "What is the purpose of entity relationships in Spring Boot?",
+      "question_type": "mcq",
+      "options": [
+        "Design UI Pages",
+        "Manage relationships between tables",
+        "Create CSS Styles",
+        "Deploy Applications"
+      ],
+      "correct_answer": "Manage relationships between tables",
+      "marks": 1
+    },
+    {
+      "question_text": "Select common JPA relationship mappings",
+      "question_type": "checkbox",
+      "options": [
+        "@OneToOne",
+        "@OneToMany",
+        "@ManyToOne",
+        "@ManyToMany",
+        "@Controller"
+      ],
+      "correct_answers": [
+        "@OneToOne",
+        "@OneToMany",
+        "@ManyToOne",
+        "@ManyToMany"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "One-to-One mapping means one entity is associated with only one other entity",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which annotation is used for One-to-One mapping?",
+      "question_type": "mcq",
+      "options": [
+        "@OneToOne",
+        "@ManyToOne",
+        "@JoinTable",
+        "@EntityScan"
+      ],
+      "correct_answer": "@OneToOne",
+      "marks": 1
+    },
+    {
+      "question_text": "Select examples of One-to-One relationships",
+      "question_type": "checkbox",
+      "options": [
+        "Person and Passport",
+        "User and Profile",
+        "Student and ID Card",
+        "Order and Invoice",
+        "Student and Courses"
+      ],
+      "correct_answers": [
+        "Person and Passport",
+        "User and Profile",
+        "Student and ID Card",
+        "Order and Invoice"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "One-to-Many means one parent can have multiple child records",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Which annotation is used for One-to-Many mapping?",
+      "question_type": "mcq",
+      "options": [
+        "@OneToMany",
+        "@ManyToOne",
+        "@Column",
+        "@Autowired"
+      ],
+      "correct_answer": "@OneToMany",
+      "marks": 1
+    },
+    {
+      "question_text": "Select examples of Many-to-One relationships",
+      "question_type": "checkbox",
+      "options": [
+        "Many Employees belong to one Department",
+        "Many Orders belong to one Customer",
+        "Many Students belong to one Class",
+        "Many Products belong to one Category",
+        "One Passport belongs to one Person"
+      ],
+      "correct_answers": [
+        "Many Employees belong to one Department",
+        "Many Orders belong to one Customer",
+        "Many Students belong to one Class",
+        "Many Products belong to one Category"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "Arrange relationship implementation sequence",
+      "question_type": "rearrange",
+      "items": [
+        "Create Entities",
+        "Add Relationship Annotations",
+        "Create Repository",
+        "Run Application"
+      ],
+      "marks": 3
+    },
+    {
+      "question_text": "What is Pagination in Spring Boot?",
+      "question_type": "mcq",
+      "options": [
+        "Dividing records into pages",
+        "Creating APIs",
+        "Writing CSS",
+        "Managing Security"
+      ],
+      "correct_answer": "Dividing records into pages",
+      "marks": 1
+    },
+    {
+      "question_text": "Which interface supports pagination in Spring Data JPA?",
+      "question_type": "mcq",
+      "options": [
+        "Pageable",
+        "Serializable",
+        "Comparator",
+        "Runnable"
+      ],
+      "correct_answer": "Pageable",
+      "marks": 1
+    },
+    {
+      "question_text": "Pagination improves performance for large datasets",
+      "question_type": "true_false",
+      "correct_answer": "True",
+      "marks": 1
+    },
+    {
+      "question_text": "Select common pagination features",
+      "question_type": "checkbox",
+      "options": [
+        "Next Page",
+        "Previous Page",
+        "Page Size",
+        "Page Numbers",
+        "Database Trigger"
+      ],
+      "correct_answers": [
+        "Next Page",
+        "Previous Page",
+        "Page Size",
+        "Page Numbers"
+      ],
+      "marks": 2
+    },
+    {
+      "question_text": "What is Sorting in Spring Boot?",
+      "question_type": "mcq",
+      "options": [
+        "Ordering records ascending or descending",
+        "Deleting records",
+        "Creating tables",
+        "Deploying project"
+      ],
+      "correct_answer": "Ordering records ascending or descending",
+      "marks": 1
+    },
+    {
+      "question_text": "Which class is commonly used for pagination and sorting together?",
+      "question_type": "mcq",
+      "options": [
+        "PageRequest",
+        "HashMap",
+        "Scanner",
+        "ServletContext"
+      ],
+      "correct_answer": "PageRequest",
+      "marks": 1
+    }
+  ]
+}
