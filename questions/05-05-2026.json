@@ -1,0 +1,127 @@
+{
+    "questions": [
+        {
+            "question_text": "What is the purpose of DaoAuthenticationProvider in Spring Security?",
+            "question_type": "mcq",
+            "options": [
+                "Handle UI rendering",
+                "Authenticate users using database",
+                "Create REST APIs",
+                "Manage CSS styles"
+            ],
+            "correct_answer": "Authenticate users using database",
+            "marks": 1
+        },
+        {
+            "question_text": "Select components required for custom authentication",
+            "question_type": "checkbox",
+            "options": [
+                "UserDetailsService",
+                "PasswordEncoder",
+                "DaoAuthenticationProvider",
+                "EntityManager",
+                "DispatcherServlet"
+            ],
+            "correct_answers": [
+                "UserDetailsService",
+                "PasswordEncoder",
+                "DaoAuthenticationProvider"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "UserDetailsService is used to load user-specific data",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which method must be overridden in UserDetailsService?",
+            "question_type": "mcq",
+            "options": [
+                "loadUserByUsername",
+                "saveUser",
+                "getUser",
+                "deleteUser"
+            ],
+            "correct_answer": "loadUserByUsername",
+            "marks": 1
+        },
+        {
+            "question_text": "Select responsibilities of UserDetails",
+            "question_type": "checkbox",
+            "options": [
+                "Provide username",
+                "Provide password",
+                "Provide authorities/roles",
+                "Render UI",
+                "Handle HTTP requests"
+            ],
+            "correct_answers": [
+                "Provide username",
+                "Provide password",
+                "Provide authorities/roles"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "PasswordEncoder is used to encrypt passwords",
+            "question_type": "true_false",
+            "correct_answer": "True",
+            "marks": 1
+        },
+        {
+            "question_text": "Which class is commonly used for password encoding?",
+            "question_type": "mcq",
+            "options": [
+                "BCryptPasswordEncoder",
+                "HashMap",
+                "Scanner",
+                "ModelMapper"
+            ],
+            "correct_answer": "BCryptPasswordEncoder",
+            "marks": 1
+        },
+        {
+            "question_text": "Select steps in custom authentication flow",
+            "question_type": "checkbox",
+            "options": [
+                "User submits login form",
+                "UserDetailsService loads user",
+                "Password is validated",
+                "Authentication is successful",
+                "CSS is applied"
+            ],
+            "correct_answers": [
+                "User submits login form",
+                "UserDetailsService loads user",
+                "Password is validated",
+                "Authentication is successful"
+            ],
+            "marks": 2
+        },
+        {
+            "question_text": "Arrange custom authentication implementation steps",
+            "question_type": "rearrange",
+            "items": [
+                "Create User Entity",
+                "Implement UserDetailsService",
+                "Configure DaoAuthenticationProvider",
+                "Configure SecurityFilterChain"
+            ],
+            "marks": 3
+        },
+        {
+            "question_text": "What is the role of SecurityFilterChain in Spring Security?",
+            "question_type": "mcq",
+            "options": [
+                "Handle authentication and authorization rules",
+                "Store data in database",
+                "Design frontend UI",
+                "Create REST controllers"
+            ],
+            "correct_answer": "Handle authentication and authorization rules",
+            "marks": 1
+        }
+    ]
+}

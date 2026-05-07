@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Registration Confirmation</title>
+<style>
+body { font-family:'Segoe UI',Arial,sans-serif; background:#f4f4f4; }
+.wrapper { max-width:600px; margin:30px auto; background:#fff;
+border-radius:12px; overflow:hidden;
+box-shadow:0 4px 20px rgba(0,0,0,0.08); }
+.header { background:linear-gradient(135deg,#6DB33F,#2E7D32);
+padding:40px 30px; text-align:center; }
+.header h1 { color:#fff; font-size:28px; margin-bottom:6px; }
+.header p { color:#B9F6CA; font-size:14px; }
+.body { padding:36px 30px; }
+.greeting{ font-size:20px; color:#2E7D32; font-weight:700; }
+.message { font-size:15px; color:#444; line-height:1.7; }
+.info-card { background:#F1F8E9; border-left:4px solid #6DB33F;
+padding:18px 20px; margin:20px 0; border-radius:0 8px 8px 0; }
+.info-row { display:flex; justify-content:space-between;
+padding:6px 0; border-bottom:1px solid #DCEDC8; }
+.info-row:last-child { border-bottom:none; }
+.info-label { color:#777; font-size:13px; }
+.info-value { color:#222; font-size:13px; font-weight:600; }
+.cta-btn { display:block; width:fit-content; margin:20px auto;
+background:linear-gradient(135deg,#6DB33F,#2E7D32);
+color:#fff; padding:14px 36px; border-radius:30px;
+text-decoration:none; font-size:15px; font-weight:700; }
+.footer { background:#F5F5F5; padding:20px; text-align:center;
+font-size:12px; color:#999; }
+</style>
+</head>
+<body>
+<div class="wrapper">
+<!-- Header -->
+<div class="header">
+<h1>Registration Successful!</h1>
+<p>Welcome to our platform — you are all set</p>
+</div>
+<!-- Body -->
+<div class="body">
+<p class="greeting"
+th:text="'Hello, ' + ${user.fullName} + '!'">Hello, User!</p>
+<p class="message">
+Thank you for registering. Your account has been created successfully.
+Please find your registration details below.
+</p>
+<!-- Info Card with Thymeleaf variables -->
+<div class="info-card">
+<div class="info-row">
+<span class="info-label">Full Name</span>
+<span class="info-value" th:text="${user.fullName}">John Doe</span>
+</div>
+<div class="info-row">
+<span class="info-label">Username</span>
+<span class="info-value" th:text="${user.username}">johndoe</span>
+</div>
+<div class="info-row">
+<span class="info-label">Email</span>
+<span class="info-value" th:text="${user.email}">john@example.com</span>
+</div>
+<div class="info-row">
+<span class="info-label">Registered On</span>
+<span class="info-value"
+th:text="${#dates.format(registeredOn,'dd MMM yyyy')}">
+01 Jan 2025
+</span>
+</div>
+</div>
+<a href="#" class="cta-btn">Go to Dashboard</a>
+<p class="message" style="font-size:13px;color:#888;margin-top:16px;">
+If you did not create this account, please ignore this email
+or contact our support team immediately.
+</p>
+</div>
+<!-- Footer -->
+<div class="footer">
+<p>&copy; 2025 Your Company. All rights reserved.</p>
+<p>This is an automated message — please do not reply directly.</p>
+</div>
+</div>
+</body>
+</html>
